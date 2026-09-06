@@ -1,32 +1,31 @@
-# Brian Lagerstrom + Personal Dinner Cookbook 🍳
+# My Cookbook 🍳
 
-A browsable HTML cookbook combining:
-1. **All dinner recipes from [brianlagerstrom.com](https://brianlagerstrom.com)** — the ⚡ quick ones (≤40 minutes) flagged and sorted to the top
-2. **Peter's personal saved recipes** — marked with a 📌 Personal badge, from sources like The Modern Nonna, RecipeTin Eats, Mob Kitchen, and more
+All my recipes in one place — from Brian Lagerstrom, the web, and anywhere else I save them. The ⚡ quick ones (≤40 minutes) are flagged and sorted to the top.
 
 **Live site:** https://pcmccullagh.github.io/lagerstrom-cookbook/
 
 ## Contents
 
-- **198 recipes total**
-  - **173 Brian Lagerstrom dinners** (breakfasts, breads, desserts, and sauces filtered out)
-  - **25 personal recipes** saved from around the web
+- **189 recipes**
+  - **164 Brian Lagerstrom dinners**
+  - **25 personal recipes** saved from around the web (marked 📌 Personal)
 - **41+ tagged ⚡ "≤40 min"** for quick weeknight dinners
-- Every card includes: photo, prep/cook time, category, servings, ingredients, instructions, and a link to the full recipe
-- Fully static — just open `index.html` in any browser
+- Every card: photo, time badge, category, servings, ingredients, instructions, and source link
 
 ## Features
 
 - ⭐ **Star favorites** — click the star on any card (saved in browser localStorage)
-- ✕ **Delete recipes** — hide ones you don't want (recoverable)
+- ✕ **Delete recipes** — removes from the page (and syncs across records via the sync script)
 - 🔍 **Filters** — All / ⭐ Favorites / ⚡ Quick only
-- 📌 **Personal badge** — distinguishes your saved recipes from the Lagerstrom catalog
+- 📌 **Personal badge** — distinguishes saved recipes from the Lagerstrom catalog
 
-## How it was built
+## Deleting a recipe
 
-- Brian Lagerstrom catalog: pulled from the site's WordPress REST API (283 posts → filtered to 173 dinners), extracted structured data (times, ingredients, instructions, images) from the WPRM recipe blocks
-- Personal recipes: exported from Peter's Notion-based cookbook (`pcmccullagh/cookbook`), converted to the same card format
-- Tagged quick dinners where published total time ≤40 min (or prep+cook ≤40, or the chef's own title says so)
+Deleting on the page hides it locally (localStorage). To remove it from **all records** (site data, second brain, Notion cache), run:
+
+```bash
+python3 ~/.hermes/scripts/sync_recipe_deletions.py
+```
 
 ## Local use
 

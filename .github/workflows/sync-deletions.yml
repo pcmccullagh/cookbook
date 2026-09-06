@@ -1,0 +1,73 @@
+# GitHub Action: sync deletions from the cookbook page back to the repo
+# When someone deletes a recipe on the site, a POST to this workflow's
+# repository_dispatch endpoint triggers a commit that removes the recipe
+# from the data files (and thus from every downstream record).
+
+name: Sync recipe deletions
+
+on:
+  repository_dispatch:
+    types: [recipe-deleted]
+
+jobs:
+  delete-recipe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Remove deleted recipe from data files
+        env:
+          SLUG: ${{ github.event.client_payload.slug }}
+        run: |
+          echo "Deleting recipe: ${SLUG}"
+          # Remove from source data files if present
+          python3 - <<'PYEOF'
+          import json, os, re, sys
+
+          slug = os.environ.get("SLUG", "")
+          if not slug:
+              sys.exit("No slug provided")
+
+          # Files that hold recipe data
+          data_files = [
+              "recipes_final.json",
+              "recipes_parsed.json",
+          ]
+          for f in data_files:
+              if not os.path.exists(f):
+                  continue
+              data = json.load(open(f))
+              if isinstance(data, dict):
+                  # keyed by title or slug
+                  keys_to_drop = [k for k in data.keys() if slugify(k) == slug]
+                  for k in keys_to_drop:
+                      del data[k]
+              elif isinstance(data, list):
+                  data = [r for r in data if slugify(r.get("title", "")) != slug and r.get("slug") != slug]
+              json.dump(data, open(f, "w"), indent=1)
+              print(f"  updated {f}")
+
+          # Remove any cached site data
+          for f in ["site/recipes.cache.json", "site/recipes.json"]:
+              if os.path.exists(f):
+                  data = json.load(open(f))
+                  if isinstance(data, list):
+                      data = [r for r in data if slugify(r.get("name", "")) != slug and r.get("slug") != slug]
+                      json.dump(data, open(f, "w"), indent=1)
+                      print(f"  updated {f}")
+
+          def slugify(s):
+              return re.sub(r"[^a-z0-9]+", "-", str(s).lower()).strip("-")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "Cookbook Bot"
+          git config user.email "cookbook-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "delete: remove recipe ${SLUG} (synced from site)"
+            git push
+          fi

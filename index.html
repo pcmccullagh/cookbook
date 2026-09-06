@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brian Lagerstrom — Dinner Cookbook</title>
+<title>My Cookbook</title>
 <style>
   :root { --bg: #faf7f2; --card: #fff; --ink: #2b2b2b; --muted: #777; --accent: #c4552d; --quick: #2e7d32; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -62,11 +62,11 @@
 </head>
 <body>
 <header>
-  <h1>🍳 Brian Lagerstrom — Dinner Cookbook</h1>
-  <p class="sub">Every dinner recipe from brianlagerstrom.com, with the quick ones flagged.</p>
+  <h1>🍳 My Cookbook</h1>
+  <p class="sub">All my recipes in one place — from Brian Lagerstrom and everywhere else, with the quick ones flagged.</p>
   <div class="stats">
-    <div class="stat"><b>198</b><br>dinner recipes</div>
-    <div class="stat"><b>47</b><br>⚡ ≤40 min</div>
+    <div class="stat"><b>189</b><br>dinner recipes</div>
+    <div class="stat"><b>41</b><br>⚡ ≤40 min</div>
     <div class="stat"><b>Sorted</b><br>quick ones first</div>
   </div>
 
@@ -82,7 +82,7 @@
 
     <div class="card quick personal" id="orange-blossom-syrup-bergamot-vanilla">
       <div class="card-img"><div class="img-placeholder">🍽️</div></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Orange Blossom Syrup (bergamot + vanilla)</h3>
         <p class="meta">Drink · Other</p>
@@ -100,7 +100,7 @@
 
     <div class="card quick personal" id="cardamom-almond-syrup-pax-beneficia-style">
       <div class="card-img"><img src="cookbook_images/cardamom-almond-syrup-pax-beneficia-style.jpg" alt="Cardamom Almond Syrup (Pax &amp; Beneficia Style)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Cardamom Almond Syrup (Pax &amp; Beneficia Style)</h3>
         <p class="meta">Drink · Other</p>
@@ -118,7 +118,7 @@
 
     <div class="card personal" id="homemade-ginger-beer-soda">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/498545417_1065727775415446_1812891870137436401_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=111&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=U2ljd_nnQfQQ7kNvwEY6s5w&amp;amp;_nc_oc=Adob7fYldHjZ8Ae4oLyWGF2CyrsYJvrzS21i85sfs_y1vqlhAqngrMFDdm4r1klJ7OE&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=OK6rDUXrpMvVQJbcDxVgcg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQI9osDlic4dMJ4b-V9DTrgzq0giwOmLI-I6__gjjLrGZw&amp;amp;oe=6AA38857" alt="Homemade Ginger Beer Soda" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Homemade Ginger Beer Soda</h3>
         <p class="meta">Snack · American</p>
@@ -136,7 +136,7 @@
 
     <div class="card personal" id="crispy-hot-honey-feta-chicken">
       <div class="card-img"><img src="cookbook_images/crispy-hot-honey-feta-chicken.jpg" alt="Crispy Hot Honey Feta Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Crispy Hot Honey Feta Chicken</h3>
         <p class="meta">Dinner · American</p>
@@ -154,7 +154,7 @@
 
     <div class="card personal" id="honey-soy-chicken-with-coconut-gochujang-broth">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.82787-15/702509161_17927203959336008_649221668395209624_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=14n_V5BuEooQ7kNvwGMujZl&amp;amp;_nc_oc=AdrZ2a0HXu0WVGfT_Dn_ELXPLgXePCgxZJV8_nBW-JxIpPImHlsV24SYozfc5MAiBFM&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=OwVBKTfAxp3JZhKKqI8atg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQK5P8ogPYF1HyhW2fKhfvgilxm66xfYGkFH4oVYxq3p9Q&amp;amp;oe=6AA3A2A4" alt="Honey &amp; Soy Chicken with Coconut Gochujang Broth" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Honey &amp; Soy Chicken with Coconut Gochujang Broth</h3>
         <p class="meta">Dinner · Asian</p>
@@ -172,7 +172,7 @@
 
     <div class="card personal" id="coconut-soaked-lime-cake">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/503998492_1382956122826194_9199574628557731607_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=105&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=qBYtrA5ku8IQ7kNvwElT09Q&amp;amp;_nc_oc=AdrN8b_GOlM8zscPBhTxFB4p5LHBEFLUZb4VZIACUwgVVD-lZlSb9lo6MugXWLp-8PY&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=r27TXUFENhBaFzX1qaD2Xg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQKOx_zKzAciMxji1WfCLimVh1PKQR1I-nLTyZFbGyvWMQ&amp;amp;oe=6AA39649" alt="Coconut Soaked Lime Cake" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 30m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Coconut Soaked Lime Cake</h3>
         <p class="meta">Dessert · American</p>
@@ -190,7 +190,7 @@
 
     <div class="card personal" id="rice-cooker-teriyaki-salmon-broccoli-bowl">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/503722798_1222559369314101_650509248877431252_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=110&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=6Zj-H_K2O4wQ7kNvwEb6IE0&amp;amp;_nc_oc=Adp21vo0PMu2MQQkKswwZUKx3pHhQachxN_D2hNSVx17-mc-IK38HPD9G4tTVpF7b90&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=0_ZE4i_CdEUOazhYaAASlA&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQJgLAPy5cXui4339B9x_DLaypWBSuwo6uhtCCQJwAjAPw&amp;amp;oe=6AA3A8A8" alt="Rice Cooker Teriyaki Salmon &amp; Broccoli Bowl" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Rice Cooker Teriyaki Salmon &amp; Broccoli Bowl</h3>
         <p class="meta">Dinner · Asian</p>
@@ -208,7 +208,7 @@
 
     <div class="card personal" id="lemon-garlic-salmon-pasta">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/682980992_939078035585391_7417644398581881393_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=109&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=p4IrtuTLMjUQ7kNvwGhPm8a&amp;amp;_nc_oc=AdoqaNx0-3xoK8AMSfRw4Lgl9PhvxiCrDy5Hsmvi9MAfbq76o0aQy5ysk0orNZxejdY&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=pDiCp5DX8XVEB7vk6z0gxw&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQIlVl6NYa1rtI3PZFT9ktZVACoGybxG7ZGSjpe7T2lxPg&amp;amp;oe=6AA39479" alt="Lemon Garlic Salmon Pasta" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Lemon Garlic Salmon Pasta</h3>
         <p class="meta">Dinner · Italian</p>
@@ -226,7 +226,7 @@
 
     <div class="card personal" id="cardamom-vanilla-latte-syrup">
       <div class="card-img"><img src="cookbook_images/cardamom-vanilla-latte-syrup.jpg" alt="Cardamom Vanilla Latte Syrup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Cardamom Vanilla Latte Syrup</h3>
         <p class="meta">Drink · American</p>
@@ -244,7 +244,7 @@
 
     <div class="card personal" id="slow-roasted-beef-stew">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/503306320_672092512471133_3266930270446836080_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=110&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=1YqvvhlasDAQ7kNvwENcZM0&amp;amp;_nc_oc=AdqjfVPaareyEoVbwZg1pGnv7kLrQ181K9Yx_cQsNXQPwrtYFN8ll9szQ931MzWPaTo&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=GTR30z0njk7fi--78UImaQ&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQJhNOTOQ6lSBt_syccEqkchhY9a7tlReDFOZ2I0VU7tJw&amp;amp;oe=6AA3ACBD" alt="Slow-Roasted Beef Stew" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span><span class="badge personal">📌 Personal</span></div>
         <h3>Slow-Roasted Beef Stew</h3>
         <p class="meta">Dinner · American</p>
@@ -262,7 +262,7 @@
 
     <div class="card personal" id="air-fryer-chicken-tikka-with-spiced-rice">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/502576682_4991719854385550_3549876538365208153_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=101&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=e2p8v15kDkgQ7kNvwEgpSGS&amp;amp;_nc_oc=AdrQLOX6UKfvaCY6tu6WwtKj7Kfj4RjSZSybGAZBdUJYA9WOXtNJF4v0DLkJh5WTEec&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=evfbmLPY3nEQM9nDQnY4Dg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQI1xR49tTl0n1qACjjBLiuuZKetvk6BIKJJ1Brn8BSh1Q&amp;amp;oe=6AA3A53D" alt="Air Fryer Chicken Tikka with Spiced Rice" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Air Fryer Chicken Tikka with Spiced Rice</h3>
         <p class="meta">Dinner · Indian</p>
@@ -280,7 +280,7 @@
 
     <div class="card personal" id="quinoa-salad-with-halloumi-coconut-cilantro-dressing">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/504360382_3516273515173623_472670679385464275_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=zra61sXj8RsQ7kNvwEUoq2S&amp;amp;_nc_oc=AdpTQNpQ_5Mpv_hIk0ICbEd9Nn_of1GRO1qEF4HcYSpE9cS0Kgg8P5Uu9c1iKTor6vA&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=nSs6V5sy6JzwdmJD2ucZwg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQKu0s3ZdWCtfmh91fIaewekfAyVYPJEgDMDLgBeD-VPNQ&amp;amp;oe=6AA37B0C" alt="Quinoa Salad with Halloumi &amp; Coconut Cilantro Dressing" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Quinoa Salad with Halloumi &amp; Coconut Cilantro Dressing</h3>
         <p class="meta">Lunch · American</p>
@@ -298,7 +298,7 @@
 
     <div class="card personal" id="pan-roasted-chicken-thighs-with-herby-rice-pickled-salad">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/503571362_4445978888971900_4085486457445282456_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=105&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=5zY__vxJzaIQ7kNvwG4najV&amp;amp;_nc_oc=Adr1R68olEMRDXJlwpZLUT5VTvxBM8godwDgd7eDwxN3RRzPU18_G1ooIdQB51gq_0w&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=Y-Uech1oX3cIteyKStUiTg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQJw8IKg3r1TLtpC5Jel4EmoTBHXVxOC07wE9v9Iq5qBpQ&amp;amp;oe=6AA38988" alt="Pan-Roasted Chicken Thighs with Herby Rice &amp; Pickled Salad" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Pan-Roasted Chicken Thighs with Herby Rice &amp; Pickled Salad</h3>
         <p class="meta">Dinner · American</p>
@@ -316,7 +316,7 @@
 
     <div class="card personal" id="c-m-g-h-i-an-vietnamese-chicken-rice">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/504157781_1117059480256013_5743118257228690980_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=104&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=ix1ybyaJLi8Q7kNvwGvRQBZ&amp;amp;_nc_oc=AdoAZdNag7DOWWYz10Ru1Sx97y00YfK4Kz7HnEo28EQJGPh2OJighWOJdSeEJqVZto8&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=nodquloKlPTmkHGWSZ5xOw&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQINRNsFVFc91Aun4fl0zDc15IX_x82zeGAL3n01GB4tYg&amp;amp;oe=6AA38868" alt="Cơm Gà Hội An (Vietnamese Chicken &amp; Rice)" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 30m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Cơm Gà Hội An (Vietnamese Chicken &amp; Rice)</h3>
         <p class="meta">Dinner · Asian</p>
@@ -334,7 +334,7 @@
 
     <div class="card quick personal" id="quick-korean-beef-rice-bowl-weeknight-bibimbap">
       <div class="card-img"><img src="cookbook_images/quick-korean-beef-rice-bowl-weeknight-bibimbap.jpg" alt="Quick Korean Beef Rice Bowl (Weeknight Bibimbap)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Quick Korean Beef Rice Bowl (Weeknight Bibimbap)</h3>
         <p class="meta">Dinner · Asian</p>
@@ -352,7 +352,7 @@
 
     <div class="card quick personal" id="single-serve-lemon-chicken-orzo-soup">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/503598649_1211813586805392_4585037622178208858_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=111&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=R53Cc_px1yoQ7kNvwE8cLIJ&amp;amp;_nc_oc=AdouA2FI9QGmGw2okz7Uu6FQmG8VyvTprh1VT3SEg5rbvLQBqgnpeJSm48D9V1hG9FU&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=2WsZk_JpNn4z2PN4LAbuBg&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQInMXvuKZq4AffXEsHw0W8sWL91jsj3H4ZQc_5-Ls6YFA&amp;amp;oe=6AA38B25" alt="Single-Serve Lemon Chicken Orzo Soup" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Single-Serve Lemon Chicken Orzo Soup</h3>
         <p class="meta">Lunch · American</p>
@@ -370,7 +370,7 @@
 
     <div class="card personal" id="chili-garlic-chicken-fried-rice">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/502715849_1246789083818001_6685892955283270956_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=101&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=XbA6FXX6D8gQ7kNvwEoZO2z&amp;amp;_nc_oc=AdrqW9NSnQerLVASYZREqDlGDox2v0FPacREDArcqLCs39EgCPZVfEk9cMrsVB8GfKU&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=wV8KkcQYulXeInb70imcsw&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQLJVKsUMGbcrOE9M0svNPjWq8ikm_mtkChWyr0kppw0lg&amp;amp;oe=6AA38684" alt="Chili Garlic Chicken Fried Rice" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span><span class="badge personal">📌 Personal</span></div>
         <h3>Chili Garlic Chicken Fried Rice</h3>
         <p class="meta">Dinner · Asian</p>
@@ -388,7 +388,7 @@
 
     <div class="card personal" id="creamy-cajun-chicken-orzo">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/688615351_17949656847154658_1782988573794950707_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=107&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=1fGeoEm7jq8Q7kNvwEa-Oty&amp;amp;_nc_oc=AdqRyw2_Dz1aeoWWJxenT5YfUdFfp3sGK27rcf_ANPadiv9LqqAuXUvZjtwx9LdMZuo&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=FDId2aVhB4fvLrEic-kW6g&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQIdrMD4mvi-Kl7jQhBfmAM3vIu3b4h2G4_RAxSFQ6d_NQ&amp;amp;oe=6AA38444" alt="Creamy Cajun Chicken Orzo" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Creamy Cajun Chicken Orzo</h3>
         <p class="meta">Dinner · American</p>
@@ -406,7 +406,7 @@
 
     <div class="card quick personal" id="x-l-ch-b-x-o-vietnamese-saut-ed-beef-salad">
       <div class="card-img"><img src="https://scontent-sea5-1.cdninstagram.com/v/t51.71878-15/503747530_1037480618576856_6804069161029258199_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=110&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=cxNZ2a96bScQ7kNvwFCCe3p&amp;amp;_nc_oc=Adp7hG0sH80v83NjpxFyD-VnkTmJFpyeZh_rPz9vFcwIwxe5eGKWUuaAZRxCc1jXSPs&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea5-1.cdninstagram.com&amp;amp;_nc_gid=Mu06mpUDLpF-RttzCPQN_A&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQKAeFiw6fQYDFZnsDPTluFYHyA6e8ttIhhepbZ4QQ-08A&amp;amp;oe=6AA3AECA" alt="Xà Lách Bò Xào (Vietnamese Sautéed Beef Salad)" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Xà Lách Bò Xào (Vietnamese Sautéed Beef Salad)</h3>
         <p class="meta">Dinner · Asian</p>
@@ -424,7 +424,7 @@
 
     <div class="card personal" id="crockpot-red-beans">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/503479621_1119060716697137_2010419743407531931_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=29Zrmf33SRcQ7kNvwHppUIx&amp;amp;_nc_oc=Adri_DhJOPa9-BQCdfnP1hevc4f1PbNDVdIVTk1GapgsX-2IMBjm_kNhiW-Lqefnt5k&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=uMc2-vgRJYlS1VtlgdNlxw&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQLH4bfJc5yggs40kJ9sjxwZpm3V1DYhQzJQdpxgYmx4_Q&amp;amp;oe=6AA388AD" alt="Crockpot Red Beans" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span><span class="badge personal">📌 Personal</span></div>
         <h3>Crockpot Red Beans</h3>
         <p class="meta">Dinner · American</p>
@@ -442,7 +442,7 @@
 
     <div class="card personal" id="hasselback-teriyaki-tofu-steaks">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/503185253_4061442157435932_8975284989546048466_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=101&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=moZvGPRAf58Q7kNvwHHDaIg&amp;amp;_nc_oc=Adp_22DttKAX8U-XZYULctCvsyAbR31EI1nMBdVWIQnCU9GDhFDTs-7d3PYw4uC30Ug&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=qVdk57FrTk0ONQJgWKm5ag&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQLgij3Y4BKPB79ygw7K_dX0UGzVOXpZIUPPagLeKRbtQQ&amp;amp;oe=6AA3A3D2" alt="Hasselback Teriyaki Tofu Steaks" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Hasselback Teriyaki Tofu Steaks</h3>
         <p class="meta">Dinner · Asian</p>
@@ -460,7 +460,7 @@
 
     <div class="card personal" id="arrachera-carne-asada-tacos">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.82787-15/699650800_18577562575010763_470869570774877104_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=AjwjCd5AGTAQ7kNvwGE4xMG&amp;amp;_nc_oc=AdqOaUIn4pofnp1R9oEyLA3S0gcDl30VLemdal4ULmOIBZJRA_xBGAPCMa8vQguCQiE&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=iglG6wBdoadg7CtNyveinw&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQIYbA8qRD7aEMTAiYGaqJ0JxgwqOy8yj58KpTFeRYKs3A&amp;amp;oe=6AA38117" alt="Arrachera Carne Asada Tacos" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span><span class="badge personal">📌 Personal</span></div>
         <h3>Arrachera Carne Asada Tacos</h3>
         <p class="meta">Dinner · Mexican</p>
@@ -478,7 +478,7 @@
 
     <div class="card personal" id="lemon-yogurt-chicken">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/505751275_1050359903318258_2635583618750849145_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=106&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=OULfbCED1qcQ7kNvwGF3PlZ&amp;amp;_nc_oc=AdoEBW9LWCTnDzuZTv3t-UWlx_m9zJNwtJ00mUwqP6fUarjIzlrvo5810eWI3nDyK4w&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=j-xNEI-a12RIXKEJ_PZrag&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQL9NwFOoNuVLCH9dNXN6iZ_dnxemZOuvjvsErRMG19VTQ&amp;amp;oe=6AA39DE5" alt="Lemon Yogurt Chicken" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Lemon Yogurt Chicken</h3>
         <p class="meta">Dinner · Mediterranean</p>
@@ -496,7 +496,7 @@
 
     <div class="card quick personal" id="tiramisu-overnight-oats">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/503007022_685091834412248_6927364296339397684_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=YiY_CyXYO8cQ7kNvwHF0802&amp;amp;_nc_oc=AdqiJGcUewILNCmYfoTRIBxJQUdElD1nHzj0PBcMfdATaZIgt1FcBJ4nuAF1zLNX0Rc&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=Mm5o4qI_QhDXOMN4UWBb7g&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQJbHs08qSQ_0qRGAdJN-J1qKhsJUkUCcyA4ewXxubVXzw&amp;amp;oe=6AA3A3B8" alt="Tiramisu Overnight Oats" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span><span class="badge personal">📌 Personal</span></div>
         <h3>Tiramisu Overnight Oats</h3>
         <p class="meta">Breakfast · American</p>
@@ -514,7 +514,7 @@
 
     <div class="card personal" id="chicken-shawarma-sheet-pan-dinner">
       <div class="card-img"><img src="https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/504083993_2451567365183383_1898508376213027412_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=7-5&amp;amp;_nc_sid=18de74&amp;amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;amp;_nc_ohc=OHIWWLDzWn0Q7kNvwGF9K1_&amp;amp;_nc_oc=AdpuxgfaGZafVHTwwlNn2wYWXnXATRqsKuKMGE2yXHPhi80MMd2THspzjvplUCWAtk4&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-sea1-1.cdninstagram.com&amp;amp;_nc_gid=TyJGI8joOGpo0XIb3M6HUw&amp;amp;_nc_ss=7960f&amp;amp;oh=00_AQJMt5J0wV16zW3Dl47basgKTTR9WLXkOUiNOb-62ZMQAg&amp;amp;oe=6AA3AD8A" alt="Chicken Shawarma Sheet Pan Dinner" loading="lazy" referrerpolicy="no-referrer"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span><span class="badge personal">📌 Personal</span></div>
         <h3>Chicken Shawarma Sheet Pan Dinner</h3>
         <p class="meta">Dinner · Mediterranean</p>
@@ -532,7 +532,7 @@
 
     <div class="card quick" id="15-minute-beef-and-broccoli">
       <div class="card-img"><img src="cookbook_images/15-minute-beef-and-broccoli.jpg" alt="15 Minute Beef &amp; Broccoli" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">15m</span></div>
         <h3>15 Minute Beef &amp; Broccoli</h3>
         <p class="meta">Asian, Beef, Lighter Meals · 0 servings</p>
@@ -550,7 +550,7 @@
 
     <div class="card quick" id="linguine-and-clams">
       <div class="card-img"><img src="cookbook_images/linguine-and-clams.jpg" alt="Linguine and Clams" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">18m</span></div>
         <h3>Linguine and Clams</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -568,7 +568,7 @@
 
     <div class="card quick" id="alfredo-e-pepe">
       <div class="card-img"><img src="cookbook_images/alfredo-e-pepe.jpg" alt="Alfredo E Pepe" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">20m</span></div>
         <h3>Alfredo E Pepe</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -586,7 +586,7 @@
 
     <div class="card quick" id="basil-pesto-pasta">
       <div class="card-img"><img src="cookbook_images/basil-pesto-pasta.jpg" alt="Basil Pesto Pasta" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">20m</span></div>
         <h3>Basil Pesto Pasta</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -602,27 +602,9 @@
       </div>
     </div>
 
-    <div class="card quick" id="shrimp-tacos">
-      <div class="card-img"><img src="cookbook_images/shrimp-tacos.jpg" alt="25 Minute Shrimp Tacos" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">24m</span></div>
-        <h3>25 Minute Shrimp Tacos</h3>
-        <p class="meta">Lighter Meals, Main Dishes, Mexican · 2 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>1350 g shrimp 51/60 shrimp</li><li>250 g cabbage shredded</li><li>125 g carrot shredded, 1 medium</li><li>1 jalapeno julienned</li><li>handful of cilantro chopped, ⅓ of a bunch</li><li>kosher salt</li><li>75 g honey or agave syrup</li><li>2 limes</li><li>2 ripe avocados</li><li>2 cloves garlic minced</li><li>pinch of chile flake</li><li>110 g mayonnaise</li><li class="more">+9 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Thaw shrimp in advance in the fridge or for 5 minutes under cold water.</li><li>Shred the cabbage, julienne the carrot and jalapeño. Combine shredded veggies in a bowl. Add a strong pinch of salt (don&#x27;t be shy). Add honey/agave and lime juice. Stir and taste for seasoning.</li><li>If thawing the shrimp under running water, remove them from the water and allow to drain while you prep the rest of the ingredients.</li><li>To make the weekday guacamole (avocado mash), squeeze the flesh of 2 avocados into a bowl. Add a pinch of salt, juice of ½ a lime, 1 clove of minced/pressed garlic, onion powder, and chile flake. Mash with a fork to combine.</li><li>Combine mayo, sriracha, about 2 tsp lime juice and 1 clove minced garlic. Stir until incorporated.</li><li>Heat tortillas in a dry non-stick pan until warmed through and floppy. Keep warm in a tortilla warmer until ready to use.</li><li>Add shrimp to a bowl with a drizzle of olive oil, pinch of salt, paprika, chili powder, cumin, chile flakes, onion powder, and garlic powder. Mix to coat shrimp evenly.</li><li>Add oil to preheated nonstick pan over medium heat. Add shrimp (it should sizzle when it hits the pan). Spread shrimp into an even layer and allow to cook on side one for just about minute. Toss, spread into an even layer and continue to cook for about another minute or until shrimp have just turned opaque.</li><li class="more">+1 more steps</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/shrimp-tacos/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card quick" id="orange-chicken-thighs">
       <div class="card-img"><img src="cookbook_images/orange-chicken-thighs.jpg" alt="Chicken Thigh Orange Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">24m</span></div>
         <h3>Chicken Thigh Orange Chicken</h3>
         <p class="meta">Asian, Chicken, Quick + Easy · 4 servings</p>
@@ -640,7 +622,7 @@
 
     <div class="card quick" id="15-minute-carbonara">
       <div class="card-img"><img src="cookbook_images/15-minute-carbonara.jpg" alt="15 Minute Carbonara" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>15 Minute Carbonara</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -658,7 +640,7 @@
 
     <div class="card quick" id="25-minute-stir-fry">
       <div class="card-img"><img src="cookbook_images/25-minute-stir-fry.jpg" alt="25 Minute Stir Fry" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>25 Minute Stir Fry</h3>
         <p class="meta">Asian, Chicken, Lighter Meals · 2 servings</p>
@@ -676,7 +658,7 @@
 
     <div class="card quick" id="5-ingredient-mexican-tostada">
       <div class="card-img"><img src="cookbook_images/5-ingredient-mexican-tostada.jpg" alt="5 Ingredient Mexican: Tostada" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>5 Ingredient Mexican: Tostada</h3>
         <p class="meta">Lighter Meals, Mexican, Quick + Easy · 4 servings</p>
@@ -694,7 +676,7 @@
 
     <div class="card quick" id="bacon-pea-pasta">
       <div class="card-img"><img src="cookbook_images/bacon-pea-pasta.jpg" alt="Bacon and Peas Pasta" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Bacon and Peas Pasta</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -712,7 +694,7 @@
 
     <div class="card quick" id="italian-sausage-and-rapini-pasta">
       <div class="card-img"><img src="cookbook_images/italian-sausage-and-rapini-pasta.jpg" alt="Italian Sausage and Rapini Pasta" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Italian Sausage and Rapini Pasta</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -730,7 +712,7 @@
 
     <div class="card quick" id="pasta-alla-vodka">
       <div class="card-img"><img src="cookbook_images/pasta-alla-vodka.jpg" alt="Pasta alla Vodka (aka the king of pantry pastas)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Pasta alla Vodka (aka the king of pantry pastas)</h3>
         <p class="meta">Italian, Main Dishes, Pasta · 4 servings</p>
@@ -748,7 +730,7 @@
 
     <div class="card quick" id="rapini-anchovy-pasta">
       <div class="card-img"><img src="cookbook_images/rapini-anchovy-pasta.jpg" alt="Rapini Anchovy Pasta" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Rapini Anchovy Pasta</h3>
         <p class="meta">Italian, Main Dishes, Pasta · 2 servings</p>
@@ -766,7 +748,7 @@
 
     <div class="card quick" id="spaghetti-chow-mein">
       <div class="card-img"><img src="cookbook_images/spaghetti-chow-mein.jpg" alt="Spaghetti Chow Mein" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Spaghetti Chow Mein</h3>
         <p class="meta">Asian, Lighter Meals, Pasta · 2 servings</p>
@@ -784,7 +766,7 @@
 
     <div class="card quick" id="speed-scratch-chicken-soup">
       <div class="card-img"><img src="cookbook_images/speed-scratch-chicken-soup.jpg" alt="Speed Scratch Chicken Soup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Speed Scratch Chicken Soup</h3>
         <p class="meta">Chicken, Comfort Food, Lighter Meals · 6 servings</p>
@@ -802,7 +784,7 @@
 
     <div class="card quick" id="dan-dan-noodles">
       <div class="card-img"><img src="cookbook_images/dan-dan-noodles.jpg" alt="Weeknighting: Dan Dan Noodles" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">25m</span></div>
         <h3>Weeknighting: Dan Dan Noodles</h3>
         <p class="meta">Asian, Comfort Food, Lighter Meals · 2 servings</p>
@@ -818,27 +800,9 @@
       </div>
     </div>
 
-    <div class="card quick" id="shrimp-scampi-pasta">
-      <div class="card-img"><img src="cookbook_images/shrimp-scampi-pasta.jpg" alt="Shrimp Scampi Pasta" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">27m</span></div>
-        <h3>Shrimp Scampi Pasta</h3>
-        <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>375 g 16/20 EZ-peel shrimp yields ~275g/9 ½ oz peeled &amp; cut</li><li>3 g kosher salt</li><li>3 T olive oil</li><li>100 g shallot finely diced</li><li>50 g garlic finely chopped or pressed</li><li>10 g Calabrian chiles chopped</li><li>250 g white wine</li><li>500 g clam juice + ~200g/¾ cup extra as needed</li><li>225 g angel hair pasta</li><li>75 g cold unsalted butter cubed</li><li>15 g parsley finely chopped</li><li>zest of ½ lemon</li><li class="more">+1 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Prep shrimp: Peel shrimp, cut into ½–¾&quot; oblique pieces. You should have ~275g. Toss the shrimp with 3g salt and chill in the refrigerator.</li><li>Aromatics: In a heavy pot over medium, heat olive oil. Add shallot, garlic, and a pinch of salt. Sweat 5–6 minutes, stirring, until soft and translucent with no browning. Add Calabrian chiles and cook 2 minutes until oil is fragrant and orange.</li><li>Wine: deglaze with 250g of white wine and simmer. Reduce until almost dry (au sec), about 2 minutes.</li><li>Cook the pasta in the sauce: Add 500g clam juice, bring to a lively simmer. Add 225g angel hair pasta directly to the liquid, stirring to submerge. Cook for roughly 2 minutes, stirring, until just shy of al dente.</li><li>Add shrimp: Stir in salted shrimp. Add splashes of clam juice (or water/stock) as needed to keep saucy. Cook until shrimp turn mostly pink and pasta is tender.</li><li>Finish: Add cold butter cubes, parsley, and lemon zest. Stir vigorously until butter emulsifies into a creamy, satiny sauce. Adjust with more clam juice if tight.</li><li>Serve: Twirl the pasta into bowls and top with shrimp, more parsley, and parmesan.</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/shrimp-scampi-pasta/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card quick" id="30-minute-chili">
       <div class="card-img"><img src="cookbook_images/30-minute-chili.jpg" alt="30 Minute Chili" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>30 Minute Chili</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -856,7 +820,7 @@
 
     <div class="card quick" id="brown-butter-pasta">
       <div class="card-img"><img src="cookbook_images/brown-butter-pasta.jpg" alt="Brown Butter Sage Pasta" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>Brown Butter Sage Pasta</h3>
         <p class="meta">Italian, Lighter Meals, Main Dishes · 2 servings</p>
@@ -874,7 +838,7 @@
 
     <div class="card quick" id="pad-woon-sen">
       <div class="card-img"><img src="cookbook_images/pad-woon-sen.jpg" alt="Budget Pad Woon Sen" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>Budget Pad Woon Sen</h3>
         <p class="meta">Asian, Lighter Meals, Main Dishes · 4 servings</p>
@@ -892,7 +856,7 @@
 
     <div class="card quick" id="mapo-tofu">
       <div class="card-img"><img src="cookbook_images/mapo-tofu.jpg" alt="Mapo Tofu" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>Mapo Tofu</h3>
         <p class="meta">Asian, Beef, Comfort Food · 4 servings</p>
@@ -910,7 +874,7 @@
 
     <div class="card quick" id="pasta-vodka">
       <div class="card-img"><img src="cookbook_images/pasta-vodka.jpg" alt="Pasta Vodka" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>Pasta Vodka</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -928,7 +892,7 @@
 
     <div class="card quick" id="quick-indian-dinner">
       <div class="card-img"><img src="cookbook_images/quick-indian-dinner.jpg" alt="Quick &amp; Easy Indian Dinner" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>Quick &amp; Easy Indian Dinner</h3>
         <p class="meta">Asian, Chicken, Main Dishes · 4 servings</p>
@@ -946,7 +910,7 @@
 
     <div class="card quick" id="quick-green-curry">
       <div class="card-img"><img src="cookbook_images/quick-green-curry.jpg" alt="Quick Green Curry" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">30m</span></div>
         <h3>Quick Green Curry</h3>
         <p class="meta">Asian, Lighter Meals, Quick + Easy · 4 servings</p>
@@ -964,7 +928,7 @@
 
     <div class="card quick" id="30-minute-thai-stir-fry-noodles">
       <div class="card-img"><img src="cookbook_images/30-minute-thai-stir-fry-noodles.jpg" alt="30 Minute Pad Woon Sen (Thai Stir Fry Noodles)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>30 Minute Pad Woon Sen (Thai Stir Fry Noodles)</h3>
         <p class="meta">Asian, Chicken, Lighter Meals · 4 servings</p>
@@ -982,7 +946,7 @@
 
     <div class="card quick" id="5-ingredient-mexican-enchiladas">
       <div class="card-img"><img src="cookbook_images/5-ingredient-mexican-enchiladas.jpg" alt="5 Ingredient Mexican: Enchiladas" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>5 Ingredient Mexican: Enchiladas</h3>
         <p class="meta">Chicken, Mexican, Weeknight Meals · 8 servings</p>
@@ -1000,7 +964,7 @@
 
     <div class="card quick" id="5-ingredient-mexican-mushroom-quesadilla">
       <div class="card-img"><img src="cookbook_images/5-ingredient-mexican-mushroom-quesadilla.jpg" alt="5 Ingredient Mexican: Mushroom Quesadilla" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>5 Ingredient Mexican: Mushroom Quesadilla</h3>
         <p class="meta">Main Dishes, Mexican, Quick + Easy · 2 servings</p>
@@ -1018,7 +982,7 @@
 
     <div class="card quick" id="chicken-piccata">
       <div class="card-img"><img src="cookbook_images/chicken-piccata.jpg" alt="Chicken Piccata" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Chicken Piccata</h3>
         <p class="meta">Chicken, Italian, Main Dishes · 2 servings</p>
@@ -1036,7 +1000,7 @@
 
     <div class="card quick" id="chicken-teriyaki">
       <div class="card-img"><img src="cookbook_images/chicken-teriyaki.jpg" alt="Chicken Teriyaki" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Chicken Teriyaki</h3>
         <p class="meta">Asian, Chicken · 2 servings</p>
@@ -1054,7 +1018,7 @@
 
     <div class="card quick" id="chicken-thigh-khao-soi">
       <div class="card-img"><img src="cookbook_images/chicken-thigh-khao-soi.jpg" alt="Chicken Thigh Khao Soi" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Chicken Thigh Khao Soi</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 4 servings</p>
@@ -1072,7 +1036,7 @@
 
     <div class="card quick" id="fried-rice">
       <div class="card-img"><img src="cookbook_images/fried-rice.jpg" alt="Fried Rice" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Fried Rice</h3>
         <p class="meta">Asian, Quick + Easy, Vegetarian · 6 servings</p>
@@ -1090,7 +1054,7 @@
 
     <div class="card quick" id="keema-curry">
       <div class="card-img"><img src="cookbook_images/keema-curry.jpg" alt="Keema Curry" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Keema Curry</h3>
         <p class="meta">Asian, Beef, Comfort Food · 4 servings</p>
@@ -1108,7 +1072,7 @@
 
     <div class="card quick" id="ravioli-with-marsala-cream-sauce">
       <div class="card-img"><img src="cookbook_images/ravioli-with-marsala-cream-sauce.jpg" alt="Ravioli With Marsala Cream Sauce" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Ravioli With Marsala Cream Sauce</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -1126,7 +1090,7 @@
 
     <div class="card quick" id="sheet-pan-fajitas">
       <div class="card-img"><img src="cookbook_images/sheet-pan-fajitas.jpg" alt="Sheet Pan Fajitas" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
         <h3>Sheet Pan Fajitas</h3>
         <p class="meta">Chicken, Lighter Meals, Main Dishes · 4 servings</p>
@@ -1142,27 +1106,9 @@
       </div>
     </div>
 
-    <div class="card quick" id="thai-green-curry">
-      <div class="card-img"><img src="cookbook_images/thai-green-curry.jpg" alt="Thai Green Curry" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">35m</span></div>
-        <h3>Thai Green Curry</h3>
-        <p class="meta">Asian, Chicken, Comfort Food · 4 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>650 g boneless skinless chicken thighs cut to 1 ½&quot; cubes</li><li>10 g kosher salt</li><li>200 g red bell pepper chopped into bite size pieces</li><li>100 g snow peas halved on bias</li><li>75 g serrano chiles sub poblano if you want less spice</li><li>30 g shallot rough chopped</li><li>30 g ginger rough chopped</li><li>30 g garlic rough chopped, about 6 cloves</li><li>30 g lemongrass rough chopped</li><li>3 g cumin ground</li><li>3 g coriander ground</li><li>1 g turmeric ground</li><li class="more">+9 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Toss chicken with 10g of salt and set aside while you prepare your vegetables.</li><li>In a blender, combine chiles, shallot, ginger, lmeongrass, spices, shrimp paste, cilantro, lime zest and 50-75g of water. Blend on high until smooth.</li><li>Heat a wok over high heat. Add in a few tbsp of oil and stir-fry the bell peppers and the peas along with a pinch of salt. cook for 2-3 minutes. Remove peppers and peas from the wok and set aside.</li><li>Wipe out and residual oil or bits from the wok. Return the woke to the heat and add in another few tbsp of oil. Fry the curry paste for 1 minutes and then add in the coconut milk. Simmer for 1 minute.</li><li>Stir in fish sauce, sugar and chicken. Simmer over medium-high heat for 7-8 minutes, stirring often.</li><li>When the chicken is fully cooked, add the stir-fried veggies from before back into the wok and simmer for 1 more minute.</li><li>Adjust seasoning with fish sauce, sugar, or salt as needed. Serve with steamed jasmine rice, cilantro &amp; lime wedges.</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/thai-green-curry/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card quick" id="30-minute-gyro-taco">
       <div class="card-img"><img src="cookbook_images/30-minute-gyro-taco.jpg" alt="30 Minute Gyro Taco" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">40m</span></div>
         <h3>30 Minute Gyro Taco</h3>
         <p class="meta">BBQ + Grilling, Beef, Main Dishes · 6 servings</p>
@@ -1180,7 +1126,7 @@
 
     <div class="card quick" id="chicken-vindaloo">
       <div class="card-img"><img src="cookbook_images/chicken-vindaloo.jpg" alt="Chicken Aloo Vindaloo" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">40m</span></div>
         <h3>Chicken Aloo Vindaloo</h3>
         <p class="meta">Asian, Chicken, Main Dishes · 4 servings</p>
@@ -1198,7 +1144,7 @@
 
     <div class="card quick" id="easy-beer-battered-fish-sandwich">
       <div class="card-img"><img src="cookbook_images/easy-beer-battered-fish-sandwich.jpg" alt="Easy Beer Battered Fish Sandwich" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">40m</span></div>
         <h3>Easy Beer Battered Fish Sandwich</h3>
         <p class="meta">Main Dishes, Sandwiches, Sauces · 10 servings</p>
@@ -1216,7 +1162,7 @@
 
     <div class="card quick" id="green-goddess-egg-salad">
       <div class="card-img"><img src="cookbook_images/green-goddess-egg-salad.jpg" alt="Green Goddess Egg Salad" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">40m</span></div>
         <h3>Green Goddess Egg Salad</h3>
         <p class="meta">Comfort Food, Main Dishes, Salads · 8 servings</p>
@@ -1234,7 +1180,7 @@
 
     <div class="card quick" id="italian-wedding-amp-minestrone-mashup-soup">
       <div class="card-img"><img src="cookbook_images/italian-wedding-amp-minestrone-mashup-soup.jpg" alt="Italian Wedding &amp; Minestrone Mashup Soup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">40m</span></div>
         <h3>Italian Wedding &amp; Minestrone Mashup Soup</h3>
         <p class="meta">Comfort Food, Italian, Lighter Meals · 6 servings</p>
@@ -1252,7 +1198,7 @@
 
     <div class="card quick" id="weeknight-banh-mi">
       <div class="card-img"><img src="cookbook_images/weeknight-banh-mi.jpg" alt="Weeknight Banh Mi" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge quick">⚡ ≤40 min</span><span class="badge time">40m</span></div>
         <h3>Weeknight Banh Mi</h3>
         <p class="meta">Asian, Lighter Meals, Main Dishes · 4 servings</p>
@@ -1270,7 +1216,7 @@
 
     <div class="card" id="neapolitan-pizza-for-a-home-pizza-oven">
       <div class="card-img"><img src="cookbook_images/neapolitan-pizza-for-a-home-pizza-oven.jpg" alt="Neapolitan Pizza for a Home Pizza Oven Recipe" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">42m</span></div>
         <h3>Neapolitan Pizza for a Home Pizza Oven Recipe</h3>
         <p class="meta">Italian, Main Dishes, Pizza · 4 servings</p>
@@ -1288,7 +1234,7 @@
 
     <div class="card" id="chicken-al-pastor-tacos">
       <div class="card-img"><img src="cookbook_images/chicken-al-pastor-tacos.jpg" alt="Chicken Al Pastor Tacos" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span></div>
         <h3>Chicken Al Pastor Tacos</h3>
         <p class="meta">Chicken, Main Dishes, Mexican · 4 servings</p>
@@ -1306,7 +1252,7 @@
 
     <div class="card" id="classic-egg-salad">
       <div class="card-img"><img src="cookbook_images/classic-egg-salad.jpg" alt="Classic American Deli-Style Egg Salad" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span></div>
         <h3>Classic American Deli-Style Egg Salad</h3>
         <p class="meta">Comfort Food, Main Dishes, Salads · 8 servings</p>
@@ -1324,7 +1270,7 @@
 
     <div class="card" id="creamy-mushroom-pasta">
       <div class="card-img"><img src="cookbook_images/creamy-mushroom-pasta.jpg" alt="Creamy Mushroom White Sauce Pasta" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span></div>
         <h3>Creamy Mushroom White Sauce Pasta</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -1342,7 +1288,7 @@
 
     <div class="card" id="grilled-cheese-tomato-soup">
       <div class="card-img"><img src="cookbook_images/grilled-cheese-tomato-soup.jpg" alt="Grilled Cheese and Tomato Soup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span></div>
         <h3>Grilled Cheese and Tomato Soup</h3>
         <p class="meta">Comfort Food, Main Dishes, Sandwiches · 4 servings</p>
@@ -1360,7 +1306,7 @@
 
     <div class="card" id="japanese-tamago-egg-salad">
       <div class="card-img"><img src="cookbook_images/japanese-tamago-egg-salad.jpg" alt="Japanese Tamago Egg Salad" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span></div>
         <h3>Japanese Tamago Egg Salad</h3>
         <p class="meta">Asian, Comfort Food, Main Dishes · 8 servings</p>
@@ -1378,7 +1324,7 @@
 
     <div class="card" id="orange-chicken">
       <div class="card-img"><img src="cookbook_images/orange-chicken.jpg" alt="Orange Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">45m</span></div>
         <h3>Orange Chicken</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 2 servings</p>
@@ -1394,27 +1340,9 @@
       </div>
     </div>
 
-    <div class="card" id="shrimp-roll">
-      <div class="card-img"><img src="cookbook_images/shrimp-roll.jpg" alt="Shrimp Roll" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge time">45m</span></div>
-        <h3>Shrimp Roll</h3>
-        <p class="meta">Main Dishes, Quick + Easy, Salads · 4 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>3000 g water</li><li>120 g coarse salt I use Morton coarse kosher</li><li>90 g granulated sugar</li><li>1 lemon halved and juiced</li><li>600 g raw 21/25 Argentine red shrimp peeled and deveined</li><li>120 g mayonnaise I like Duke&#x27;s brand</li><li>20 g fresh chives finely cut</li><li>3 g salt</li><li>1 lemon zested</li><li>15 g lemon juice</li><li>4 brioche buns split-top</li><li>1 tbsp oil for toasting buns</li><li class="more">+2 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Combine water, salt, sugar, and 1 halved lemon (squeeze the juice in first) in a large pot and bring it to a boil. The water should taste aggressively salty and a little sweet.</li><li>Add shrimp, immediately turn off the heat, and let them cook in the hot water (190-195°F/90°C range) for 3 minutes.</li><li>After 3 minutes, remove shrimp with a spider strainer and lay them on a paper-towel-lined sheet tray. Slide the tray into the fridge for about 20 minutes to cool.</li><li>Pull the cooled shrimp then cut them into bite-sized pieces about the size of a peanut M&amp; M, or slightly smaller. Once cut, dab them thoroughly with paper towel to soak up any moisture.</li><li>In a bowl with the shrimp pieces, add in mayo, chives, lemon juice, and lemon zest and gently stir to combine. Give the shrimp a taste and season with additional salt and/or lemon juice if needed.</li><li>Heat about 1 tablespoon / 15g of oil in a nonstick saute pan over medium heat. Toast the buns on the inside until they&#x27;re nicely golden brown and a little crispy.</li><li>To assemble the shrimp rolls, spread a little mayo on each toasted bun, then pile in the shrimp mixture. Top with more chives a crack or two of black pepper and serve right away while the buns are still warm and soft.</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/shrimp-roll/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card" id="30-minute-khao-soi">
       <div class="card-img"><img src="cookbook_images/30-minute-khao-soi.jpg" alt="30 Minute Khao Soi" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">50m</span></div>
         <h3>30 Minute Khao Soi</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 4 servings</p>
@@ -1432,7 +1360,7 @@
 
     <div class="card" id="broccoli-cheddar-soup">
       <div class="card-img"><img src="cookbook_images/broccoli-cheddar-soup.jpg" alt="Broccoli Cheddar Soup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">50m</span></div>
         <h3>Broccoli Cheddar Soup</h3>
         <p class="meta">Comfort Food, Quick + Easy, Soups &amp;amp; Stews · 4 servings</p>
@@ -1450,7 +1378,7 @@
 
     <div class="card" id="fettuccine-alfredo">
       <div class="card-img"><img src="cookbook_images/fettuccine-alfredo.jpg" alt="Fettucini Alfredo with Homemade Pappardelle" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">50m</span></div>
         <h3>Fettucini Alfredo with Homemade Pappardelle</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -1468,7 +1396,7 @@
 
     <div class="card" id="fried-catfish-and-hush-puppies">
       <div class="card-img"><img src="cookbook_images/fried-catfish-and-hush-puppies.jpg" alt="Fried Catfish &amp; Hush Puppies with Spicy Mayo Tartar Sauce" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">50m</span></div>
         <h3>Fried Catfish &amp; Hush Puppies with Spicy Mayo Tartar Sauce</h3>
         <p class="meta">Comfort Food, Main Dishes, Sauces · 4 servings</p>
@@ -1486,7 +1414,7 @@
 
     <div class="card" id="pesto-chicken-salad">
       <div class="card-img"><img src="cookbook_images/pesto-chicken-salad.jpg" alt="Herby Pesto Chicken Salad" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">50m</span></div>
         <h3>Herby Pesto Chicken Salad</h3>
         <p class="meta">Chicken, Italian, Main Dishes · 2 servings</p>
@@ -1504,7 +1432,7 @@
 
     <div class="card" id="grandma-pizza">
       <div class="card-img"><img src="cookbook_images/grandma-pizza.jpg" alt="1 Hour Grandma Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>1 Hour Grandma Pizza</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 6 servings</p>
@@ -1522,7 +1450,7 @@
 
     <div class="card" id="chicken-tinga">
       <div class="card-img"><img src="cookbook_images/chicken-tinga.jpg" alt="Chicken Tinga" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>Chicken Tinga</h3>
         <p class="meta">Chicken, Mexican, Quick + Easy · 8 servings</p>
@@ -1540,7 +1468,7 @@
 
     <div class="card" id="korean-fried-chicken">
       <div class="card-img"><img src="cookbook_images/korean-fried-chicken.jpg" alt="Crispy Korean Fried Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>Crispy Korean Fried Chicken</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 4 servings</p>
@@ -1558,7 +1486,7 @@
 
     <div class="card" id="white-wine-mussels">
       <div class="card-img"><img src="cookbook_images/white-wine-mussels.jpg" alt="Mussels in White Wine Sauce" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>Mussels in White Wine Sauce</h3>
         <p class="meta">Appetizers, Lighter Meals, Main Dishes · 2 servings</p>
@@ -1576,7 +1504,7 @@
 
     <div class="card" id="spicy-sausage-rigatoni">
       <div class="card-img"><img src="cookbook_images/spicy-sausage-rigatoni.jpg" alt="One Pot Spicy Sausage Rigatoni" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>One Pot Spicy Sausage Rigatoni</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 6 servings</p>
@@ -1594,7 +1522,7 @@
 
     <div class="card" id="tlyuda">
       <div class="card-img"><img src="cookbook_images/tlyuda.jpg" alt="Tlyuda" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>Tlyuda</h3>
         <p class="meta">Lighter Meals, Main Dishes, Mexican · 6 servings</p>
@@ -1612,7 +1540,7 @@
 
     <div class="card" id="tuna-noodle-casserole">
       <div class="card-img"><img src="cookbook_images/tuna-noodle-casserole.jpg" alt="Tuna Noodle Casserole" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>Tuna Noodle Casserole</h3>
         <p class="meta">Comfort Food, Holiday Dishes, Main Dishes · 6 servings</p>
@@ -1630,7 +1558,7 @@
 
     <div class="card" id="veggie-chili">
       <div class="card-img"><img src="cookbook_images/veggie-chili.jpg" alt="Vegetarian Chili" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">55m</span></div>
         <h3>Vegetarian Chili</h3>
         <p class="meta">Comfort Food, Soups &amp;amp; Stews, Vegetarian · 8 servings</p>
@@ -1648,7 +1576,7 @@
 
     <div class="card" id="craveable-meals">
       <div class="card-img"><img src="cookbook_images/craveable-meals.jpg" alt="20 Craveable Meals, 1 Hour" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h</span></div>
         <h3>20 Craveable Meals, 1 Hour</h3>
         <p class="meta">Beef, Chicken, Lighter Meals · 0 servings</p>
@@ -1666,7 +1594,7 @@
 
     <div class="card" id="bucatini-amatriciana">
       <div class="card-img"><img src="cookbook_images/bucatini-amatriciana.jpg" alt="Bucatini Amatriciana" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h</span></div>
         <h3>Bucatini Amatriciana</h3>
         <p class="meta">Italian, Main Dishes, Pasta · 4 servings</p>
@@ -1684,7 +1612,7 @@
 
     <div class="card" id="cheeseburger-casserole">
       <div class="card-img"><img src="cookbook_images/cheeseburger-casserole.jpg" alt="Cheeseburger Casserole" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h</span></div>
         <h3>Cheeseburger Casserole</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 6 servings</p>
@@ -1702,7 +1630,7 @@
 
     <div class="card" id="chicken-parm">
       <div class="card-img"><img src="cookbook_images/chicken-parm.jpg" alt="Chicken Parm" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h</span></div>
         <h3>Chicken Parm</h3>
         <p class="meta">Chicken, Comfort Food, Italian · 2 servings</p>
@@ -1720,7 +1648,7 @@
 
     <div class="card" id="healthy-meals-in-1-hour">
       <div class="card-img"><img src="cookbook_images/healthy-meals-in-1-hour.jpg" alt="How I Cook a Week’s Worth of Healthy Food in 1 Hour" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h</span></div>
         <h3>How I Cook a Week’s Worth of Healthy Food in 1 Hour</h3>
         <p class="meta">Lighter Meals, Weeknight Meals · 0 servings</p>
@@ -1738,7 +1666,7 @@
 
     <div class="card" id="japanese-curry">
       <div class="card-img"><img src="cookbook_images/japanese-curry.jpg" alt="Japanese Curry" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h</span></div>
         <h3>Japanese Curry</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 6 servings</p>
@@ -1754,27 +1682,9 @@
       </div>
     </div>
 
-    <div class="card" id="shrimp-etouffee">
-      <div class="card-img"><img src="cookbook_images/shrimp-etouffee.jpg" alt="Shrimp Etouffee" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge time">1h</span></div>
-        <h3>Shrimp Etouffee</h3>
-        <p class="meta">Comfort Food, Lighter Meals, Seafood · 4 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>680 g large raw shell on shrimp i’m using U-12 wild gulf shrimp</li><li>8 g salt</li><li>700 g chicken stock</li><li>225 g clam juice</li><li>40 g AP flour gluten free flour blend works too</li><li>40 g unsalted butter</li><li>150 g yellow onion diced</li><li>100 g celery hearts diced</li><li>150 g red bell pepper diced</li><li>20 g garlic minced</li><li>30 g tomato paste</li><li>5 g paprika</li><li class="more">+2 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Shell and devein shrimp, reserving shells.</li><li>Cut shrimp into more bite sized pieces, but not too small.</li><li>Place into a bowl, add 8g salt and toss to coat.</li><li>To make chickeny shrimp stock, add chicken stock, shrimp shells, and clam juice to a sauce pot and place over medium heat. Cook for 15-20 minutes or longer.</li><li>Preheat dutch oven over medium. Add flour, stir, and dry toast for about 3 minutes until gently smoking and golden.</li><li>Add butter, stir to make a roux When roux has thickened and has taken on a brown toasty color, increase to med-high heat and add onion, celery, bell peppers, garlic, and 2 large pinches salt and stir until veggies are getting soft.</li><li>Add tomato paste, paprika, and cayenne. Stir and allow to fry for a minute to cook the raw edge off of the tomato paste.</li><li>Add kale. Stir for about a minute or until beginning to wilt and turn bright green.</li><li class="more">+5 more steps</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/shrimp-etouffee/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card" id="baja-fish-tacos">
       <div class="card-img"><img src="cookbook_images/baja-fish-tacos.jpg" alt="Baja Fried Fish Tacos Recipe" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 5m</span></div>
         <h3>Baja Fried Fish Tacos Recipe</h3>
         <p class="meta">Main Dishes, Mexican, Seafood · 4 servings</p>
@@ -1790,27 +1700,9 @@
       </div>
     </div>
 
-    <div class="card" id="cioppino">
-      <div class="card-img"><img src="cookbook_images/cioppino.jpg" alt="Cioppino" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge time">1h 5m</span></div>
-        <h3>Cioppino</h3>
-        <p class="meta">Comfort Food, Italian, Lighter Meals · 6 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>125 g white onion small diced</li><li>75 g fennel small diced</li><li>15 g garlic minced</li><li>olive oil</li><li>kosher salt</li><li>450 g shell-on raw wild shrimp shells removed and reserved for stock</li><li>1000 g chicken stock</li><li>240 g clam juice</li><li>chile flake</li><li>200 g or ¾-1c dry white wine</li><li>800 g nice whole peeled canned tomatoes 28oz , pureed</li><li>450 g mussels rinsed, beards removed, any broken/open mussels discarded</li><li class="more">+7 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Into a medium sauce pot, add the shells from 1lb shrimp, stock, and clam juice. Bring to a simmer and continue simmer over medium low for about 15 minutes.</li><li>Heat a large heavy bottomed pot over medium. Add a very generous squeeze of olive oil (it should almost coat the bottom of your pot) To that, add onion, fennel, and garlic and a large pinch of salt. Stir and sweat over medium for 4-5 minutes.</li><li>Add pinch of chile flake to veg. Allow chile flake to cook and infuse the oil for about a minute, then add in wine. Bring wine and veg to a simmer and continue to cook for 2-3 more minutes or until wine is mostly evaporated.</li><li>Add in all of the strained liquid from your shrimp-clam stock (discard shrimp shells). You should be adding about 1200g/mL here. If you don’t have enough, add additional chicken stock or water.</li><li>Stir in pureed tomatoes. Increase heat to medium high, bring to a boil. Continue to simmer and reduce for approximately 15 minutes by about 15-20%. At this point, taste the base for seasoning. Add salt and pinch of sugar if needed to balance acidity.</li><li>Reduce heat to low then drop in cod, shrimp, and squid. Gently move with a spoon to ensure everything is spread evenly and submerged before adding in mussels and snugging them into the base to submerge. Bring to a simmer, cover, and allow to poach for 3-4 minutes.</li><li>Very gently stir the seafood. Continue to cook if mussels aren’t yet fully open. When mussels are fully opened and the rest of the fish is opaque, it’s done! Discard any mussels that didn’t open during cooking.</li><li>Ladle into a bowl, garnish with black pepper, olive oil, and minced parsley, and enjoy with crusty bread.</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/cioppino/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card" id="spicy-tuna-roll-chicken-salad">
       <div class="card-img"><img src="cookbook_images/spicy-tuna-roll-chicken-salad.jpg" alt="“Spicy Tuna Roll” Chicken Salad" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 5m</span></div>
         <h3>“Spicy Tuna Roll” Chicken Salad</h3>
         <p class="meta">Asian, Chicken, Main Dishes · 2 servings</p>
@@ -1828,7 +1720,7 @@
 
     <div class="card" id="enchiladas-verdes">
       <div class="card-img"><img src="cookbook_images/enchiladas-verdes.jpg" alt="Enchiladas Verdes" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 10m</span></div>
         <h3>Enchiladas Verdes</h3>
         <p class="meta">Chicken, Comfort Food, Mexican · 8 servings</p>
@@ -1846,7 +1738,7 @@
 
     <div class="card" id="1-hour-pan-pizza">
       <div class="card-img"><img src="cookbook_images/1-hour-pan-pizza.jpg" alt="1 Hour Pan Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 15m</span></div>
         <h3>1 Hour Pan Pizza</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 1 servings</p>
@@ -1864,7 +1756,7 @@
 
     <div class="card" id="cheesy-stuffed-shells">
       <div class="card-img"><img src="cookbook_images/cheesy-stuffed-shells.jpg" alt="Cheesy Stuffed Shells" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 15m</span></div>
         <h3>Cheesy Stuffed Shells</h3>
         <p class="meta">Comfort Food, Holiday Dishes, Italian · 6 servings</p>
@@ -1882,7 +1774,7 @@
 
     <div class="card" id="chili-oil-wontons">
       <div class="card-img"><img src="cookbook_images/chili-oil-wontons.jpg" alt="Chili Oil Wonton Recipe" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 15m</span></div>
         <h3>Chili Oil Wonton Recipe</h3>
         <p class="meta">Appetizers, Asian, Main Dishes · 34 servings</p>
@@ -1900,7 +1792,7 @@
 
     <div class="card" id="curried-chicken-salad">
       <div class="card-img"><img src="cookbook_images/curried-chicken-salad.jpg" alt="Curried Chicken Salad" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 15m</span></div>
         <h3>Curried Chicken Salad</h3>
         <p class="meta">Asian, Chicken, Main Dishes · 2 servings</p>
@@ -1918,7 +1810,7 @@
 
     <div class="card" id="east-coast-bar-pizza">
       <div class="card-img"><img src="cookbook_images/east-coast-bar-pizza.jpg" alt="East Coast Bar Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 15m</span></div>
         <h3>East Coast Bar Pizza</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -1936,7 +1828,7 @@
 
     <div class="card" id="taco-pizza">
       <div class="card-img"><img src="cookbook_images/taco-pizza.jpg" alt="Taco Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 15m</span></div>
         <h3>Taco Pizza</h3>
         <p class="meta">Comfort Food, Main Dishes, Mexican · 2 servings</p>
@@ -1954,7 +1846,7 @@
 
     <div class="card" id="chicken-and-dumplings">
       <div class="card-img"><img src="cookbook_images/chicken-and-dumplings.jpg" alt="Chicken And Dumplings" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 20m</span></div>
         <h3>Chicken And Dumplings</h3>
         <p class="meta">Chicken, Comfort Food, Holiday Dishes · 8 servings</p>
@@ -1972,7 +1864,7 @@
 
     <div class="card" id="general-tsos-chicken">
       <div class="card-img"><img src="cookbook_images/general-tsos-chicken.jpg" alt="General Tso’s Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 20m</span></div>
         <h3>General Tso’s Chicken</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 2 servings</p>
@@ -1990,7 +1882,7 @@
 
     <div class="card" id="roman-gnocchi">
       <div class="card-img"><img src="cookbook_images/roman-gnocchi.jpg" alt="Roman Gnocchi" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 20m</span></div>
         <h3>Roman Gnocchi</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 6 servings</p>
@@ -2006,27 +1898,9 @@
       </div>
     </div>
 
-    <div class="card" id="pad-thai">
-      <div class="card-img"><img src="cookbook_images/pad-thai.jpg" alt="Authentic-ish Pad Thai" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge time">1h 25m</span></div>
-        <h3>Authentic-ish Pad Thai</h3>
-        <p class="meta">Asian, Lighter Meals, Main Dishes · 2 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>150 g Thai style medium rice noodles</li><li>225 g raw shrimp cut into large bitesize pieces</li><li>75 g shallot rough chopped</li><li>15 g garlic about 3-4 cloves, minced</li><li>50 g roasted unsalted peanuts chopped and dust sifted off</li><li>25 g preserved sweet radish look for sweet not salt, chopped</li><li>50 g scallions greens only, cut into 1-2″ or 2.5-5cm pieces</li><li>100 g fresh bean sprouts</li><li>125 g extra firm/pressed tofu diced into bite sized pieces</li><li>Pad thai sauce</li><li>40 g tamarind concentrate</li><li>60 g palm sugar chopped, sub brown sugar if needed</li><li class="more">+8 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Soak thai rice noodles in room temp water for 1 hour. Drain and cut if needed. Set aside.</li><li>Prep all ingredients then preheat a large wok over high heat. Add a long squeeze of oil to pan then add shrimp and a pinch of salt. Stir fry and keep them moving to cook about 85% through. Transfer shrimp to a bowl.</li><li>Return wok to heat, add another squeeze of oil followed by eggs. Scramble in the wok. When mostly cooked, transfer to shrimp bowl.</li><li>Return wok to heat, add another squeeze of oil, followed by tofu and a pinch of salt. Stir fry for about 2 mins until nicely golden brown. Add shallots, garlic, radish, and chile flake. Cook for about 30 seconds, stirring constantly.</li><li>Add soaked rice noodles and sauce. Stir and toss to combine. Cook until noodles are tender but still springy and chewy. You may need to add a splash of water to cook noodles properly. Careful not to add too much water.</li><li>Reduce heat to medium and add in cooked shrimp and eggs. Toss to combine, careful not to over work. Add bean sprouts, scallions, and half of the peanuts. Fold everything together and cook for about 30 more seconds to warm through.</li><li>Plate up and finish by adding a sprinkle of peanuts and sprinkle of lime.</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/pad-thai/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card" id="french-dip">
       <div class="card-img"><img src="cookbook_images/french-dip.jpg" alt="French Dip Sandwiches" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 25m</span></div>
         <h3>French Dip Sandwiches</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 4 servings</p>
@@ -2044,7 +1918,7 @@
 
     <div class="card" id="new-york-style-pizza">
       <div class="card-img"><img src="cookbook_images/new-york-style-pizza.jpg" alt="New York Style Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 25m</span></div>
         <h3>New York Style Pizza</h3>
         <p class="meta">Italian, Main Dishes, Pizza · 4 servings</p>
@@ -2062,7 +1936,7 @@
 
     <div class="card" id="chicken-souvlaki">
       <div class="card-img"><img src="cookbook_images/chicken-souvlaki.jpg" alt="Greek Chicken Souvlaki" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 30m</span></div>
         <h3>Greek Chicken Souvlaki</h3>
         <p class="meta">Breads, Chicken, Lighter Meals · 4 servings</p>
@@ -2080,7 +1954,7 @@
 
     <div class="card" id="indian-curry">
       <div class="card-img"><img src="cookbook_images/indian-curry.jpg" alt="Indian Curry" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 45m</span></div>
         <h3>Indian Curry</h3>
         <p class="meta">Asian, Chicken, Comfort Food · 4 servings</p>
@@ -2098,7 +1972,7 @@
 
     <div class="card" id="potato-gnocchi">
       <div class="card-img"><img src="cookbook_images/potato-gnocchi.jpg" alt="Potato Gnocchi with Gorgonzola Sauce" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 45m</span></div>
         <h3>Potato Gnocchi with Gorgonzola Sauce</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -2116,7 +1990,7 @@
 
     <div class="card" id="french-onion-soup">
       <div class="card-img"><img src="cookbook_images/french-onion-soup.jpg" alt="French Onion Soup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 50m</span></div>
         <h3>French Onion Soup</h3>
         <p class="meta">Comfort Food, Soups &amp;amp; Stews · 8 servings</p>
@@ -2134,7 +2008,7 @@
 
     <div class="card" id="tikka-masala">
       <div class="card-img"><img src="cookbook_images/tikka-masala.jpg" alt="AMAZING Tikka Masala Home" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 55m</span></div>
         <h3>AMAZING Tikka Masala Home</h3>
         <p class="meta">Asian, BBQ + Grilling, Chicken · 6 servings</p>
@@ -2152,7 +2026,7 @@
 
     <div class="card" id="coq-au-vin">
       <div class="card-img"><img src="cookbook_images/coq-au-vin.jpg" alt="Coq Au Vin" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">1h 55m</span></div>
         <h3>Coq Au Vin</h3>
         <p class="meta">Chicken, Comfort Food, Holiday Dishes · 4 servings</p>
@@ -2170,7 +2044,7 @@
 
     <div class="card" id="cajun-gumbo">
       <div class="card-img"><img src="cookbook_images/cajun-gumbo.jpg" alt="Cajun Gumbo" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h</span></div>
         <h3>Cajun Gumbo</h3>
         <p class="meta">Chicken, Comfort Food, Main Dishes · 8 servings</p>
@@ -2188,7 +2062,7 @@
 
     <div class="card" id="chicken-noodle-soup">
       <div class="card-img"><img src="cookbook_images/chicken-noodle-soup.jpg" alt="Chicken Noodle Soup" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h 15m</span></div>
         <h3>Chicken Noodle Soup</h3>
         <p class="meta">Chicken, Comfort Food, Soups &amp;amp; Stews · 8 servings</p>
@@ -2206,7 +2080,7 @@
 
     <div class="card" id="classic-lasagna">
       <div class="card-img"><img src="cookbook_images/classic-lasagna.jpg" alt="The Best Classic Lasagna Recipe" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h 15m</span></div>
         <h3>The Best Classic Lasagna Recipe</h3>
         <p class="meta">Comfort Food, Holiday Dishes, Italian · 8 servings</p>
@@ -2224,7 +2098,7 @@
 
     <div class="card" id="the-easiest-pizza-dough">
       <div class="card-img"><img src="cookbook_images/the-easiest-pizza-dough.jpg" alt="The Easiest Actually Good Pizza Dough – No Mixer" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h 15m</span></div>
         <h3>The Easiest Actually Good Pizza Dough – No Mixer</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 4 servings</p>
@@ -2242,7 +2116,7 @@
 
     <div class="card" id="greek-chicken-and-potatoes">
       <div class="card-img"><img src="cookbook_images/greek-chicken-and-potatoes.jpg" alt="Greek Chicken &amp; Potatoes" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h 30m</span></div>
         <h3>Greek Chicken &amp; Potatoes</h3>
         <p class="meta">Chicken, Comfort Food, Main Dishes · 4 servings</p>
@@ -2260,7 +2134,7 @@
 
     <div class="card" id="grilled-pizza">
       <div class="card-img"><img src="cookbook_images/grilled-pizza.jpg" alt="Grilled Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h 40m</span></div>
         <h3>Grilled Pizza</h3>
         <p class="meta">BBQ + Grilling, Italian, Main Dishes · 4 servings</p>
@@ -2278,7 +2152,7 @@
 
     <div class="card" id="chicago-style-thin-crust-pizza">
       <div class="card-img"><img src="cookbook_images/chicago-style-thin-crust-pizza.jpg" alt="Tavern Style Chicago Thin Crust Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">2h 40m</span></div>
         <h3>Tavern Style Chicago Thin Crust Pizza</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -2296,7 +2170,7 @@
 
     <div class="card" id="buffalo-chicken-sandwich">
       <div class="card-img"><img src="cookbook_images/buffalo-chicken-sandwich.jpg" alt="Buffalo Chicken Sandwich with Blue Cheese Sauce" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h</span></div>
         <h3>Buffalo Chicken Sandwich with Blue Cheese Sauce</h3>
         <p class="meta">Chicken, Comfort Food, Main Dishes · 6 servings</p>
@@ -2314,7 +2188,7 @@
 
     <div class="card" id="peri-peri-chicken">
       <div class="card-img"><img src="cookbook_images/peri-peri-chicken.jpg" alt="Peri Peri Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h</span></div>
         <h3>Peri Peri Chicken</h3>
         <p class="meta">BBQ + Grilling, Chicken, Lighter Meals · 6 servings</p>
@@ -2332,7 +2206,7 @@
 
     <div class="card" id="chow-mein">
       <div class="card-img"><img src="cookbook_images/chow-mein.jpg" alt="Chow Mein" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 20m</span></div>
         <h3>Chow Mein</h3>
         <p class="meta">Asian, Chicken, Main Dishes · 2 servings</p>
@@ -2350,7 +2224,7 @@
 
     <div class="card" id="detroit-style-pizza">
       <div class="card-img"><img src="cookbook_images/detroit-style-pizza.jpg" alt="Detroit Style Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 20m</span></div>
         <h3>Detroit Style Pizza</h3>
         <p class="meta">Italian, Main Dishes, Pizza · 2 servings</p>
@@ -2368,7 +2242,7 @@
 
     <div class="card" id="new-jersey-pizza">
       <div class="card-img"><img src="cookbook_images/new-jersey-pizza.jpg" alt="New Jersey Style Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 25m</span></div>
         <h3>New Jersey Style Pizza</h3>
         <p class="meta">Italian, Main Dishes, Pizza · 4 servings</p>
@@ -2386,7 +2260,7 @@
 
     <div class="card" id="dad-ribs">
       <div class="card-img"><img src="cookbook_images/dad-ribs.jpg" alt="Dad Ribs" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 45m</span></div>
         <h3>Dad Ribs</h3>
         <p class="meta">BBQ + Grilling, Main Dishes, Pork · 4 servings</p>
@@ -2404,7 +2278,7 @@
 
     <div class="card" id="irish-beef-stew">
       <div class="card-img"><img src="cookbook_images/irish-beef-stew.jpg" alt="Irish Beef &amp; Stout Stew" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 50m</span></div>
         <h3>Irish Beef &amp; Stout Stew</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 6 servings</p>
@@ -2422,7 +2296,7 @@
 
     <div class="card" id="perfect-carnitas">
       <div class="card-img"><img src="cookbook_images/perfect-carnitas.jpg" alt="Perfect Carnitas Recipe" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 50m</span></div>
         <h3>Perfect Carnitas Recipe</h3>
         <p class="meta">Main Dishes, Mexican, Pork · 8 servings</p>
@@ -2440,7 +2314,7 @@
 
     <div class="card" id="lobster-rolls">
       <div class="card-img"><img src="cookbook_images/lobster-rolls.jpg" alt="Lobster Rolls" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">3h 55m</span></div>
         <h3>Lobster Rolls</h3>
         <p class="meta">Breads, Main Dishes, Sandwiches · 4 servings</p>
@@ -2458,7 +2332,7 @@
 
     <div class="card" id="the-party-sub">
       <div class="card-img"><img src="cookbook_images/the-party-sub.jpg" alt="The Party Sub" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">4h 30m</span></div>
         <h3>The Party Sub</h3>
         <p class="meta">Italian, Main Dishes, Sandwiches · 8 servings</p>
@@ -2476,7 +2350,7 @@
 
     <div class="card" id="jerk-chicken">
       <div class="card-img"><img src="cookbook_images/jerk-chicken.jpg" alt="Jerk Chicken" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">5h 20m</span></div>
         <h3>Jerk Chicken</h3>
         <p class="meta">BBQ + Grilling, Chicken · 4 servings</p>
@@ -2494,7 +2368,7 @@
 
     <div class="card" id="bahn-mi-with-crispy-baguette">
       <div class="card-img"><img src="cookbook_images/bahn-mi-with-crispy-baguette.jpg" alt="Banh Mi with Crispy Baguette" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">7h</span></div>
         <h3>Banh Mi with Crispy Baguette</h3>
         <p class="meta">Asian, Main Dishes, Pork · 6 servings</p>
@@ -2512,7 +2386,7 @@
 
     <div class="card" id="5-ingredient-mexican-slow-cooker-al-pastor">
       <div class="card-img"><img src="cookbook_images/5-ingredient-mexican-slow-cooker-al-pastor.jpg" alt="5 Ingredient Mexican: Slow Cooker Al Pastor" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">7h 25m</span></div>
         <h3>5 Ingredient Mexican: Slow Cooker Al Pastor</h3>
         <p class="meta">Main Dishes, Mexican, Pork · 6 servings</p>
@@ -2530,7 +2404,7 @@
 
     <div class="card" id="bbq-chicken-pizza">
       <div class="card-img"><img src="cookbook_images/bbq-chicken-pizza.jpg" alt="BBQ Chicken Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">9h 30m</span></div>
         <h3>BBQ Chicken Pizza</h3>
         <p class="meta">BBQ + Grilling, Chicken, Main Dishes · 4 servings</p>
@@ -2548,7 +2422,7 @@
 
     <div class="card" id="korean-short-ribs">
       <div class="card-img"><img src="cookbook_images/korean-short-ribs.jpg" alt="Korean Short Ribs (Galbi)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">9h 40m</span></div>
         <h3>Korean Short Ribs (Galbi)</h3>
         <p class="meta">Asian, BBQ + Grilling, Beef · 6 servings</p>
@@ -2566,7 +2440,7 @@
 
     <div class="card" id="tonkotsu-ramen">
       <div class="card-img"><img src="cookbook_images/tonkotsu-ramen.jpg" alt="Tonkotsu Ramen" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">10h 30m</span></div>
         <h3>Tonkotsu Ramen</h3>
         <p class="meta">Asian, Comfort Food, Main Dishes · 4 servings</p>
@@ -2584,7 +2458,7 @@
 
     <div class="card" id="pastrami-on-rye">
       <div class="card-img"><img src="cookbook_images/pastrami-on-rye.jpg" alt="Homemade Pastrami on Rye Sandwich" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">16h</span></div>
         <h3>Homemade Pastrami on Rye Sandwich</h3>
         <p class="meta">BBQ + Grilling, Beef, Main Dishes · 0 servings</p>
@@ -2602,7 +2476,7 @@
 
     <div class="card" id="20-healthy-meals">
       <div class="card-img"><img src="cookbook_images/20-healthy-meals.jpg" alt="20 Healthy Meals for $30" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>20 Healthy Meals for $30</h3>
         <p class="meta">Asian, Chicken, Lighter Meals · 0 servings</p>
@@ -2620,7 +2494,7 @@
 
     <div class="card" id="5-ingredient-mexican-arroz-con-pollo">
       <div class="card-img"><img src="cookbook_images/5-ingredient-mexican-arroz-con-pollo.jpg" alt="5 Ingredient Mexican: Arroz Con Pollo" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>5 Ingredient Mexican: Arroz Con Pollo</h3>
         <p class="meta">Chicken, Lighter Meals, Mexican · 0 servings</p>
@@ -2638,7 +2512,7 @@
 
     <div class="card" id="beef-and-broccoli">
       <div class="card-img"><img src="cookbook_images/beef-and-broccoli.jpg" alt="Beef and Broccoli" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Beef and Broccoli</h3>
         <p class="meta">Asian, Beef, Comfort Food · 0 servings</p>
@@ -2656,7 +2530,7 @@
 
     <div class="card" id="beef-pad-kra-pao">
       <div class="card-img"><img src="cookbook_images/beef-pad-kra-pao.jpg" alt="Beef Pad Kra Pao" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Beef Pad Kra Pao</h3>
         <p class="meta">Asian, Beef, Lighter Meals · 0 servings</p>
@@ -2674,7 +2548,7 @@
 
     <div class="card" id="beef-stew">
       <div class="card-img"><img src="cookbook_images/beef-stew.jpg" alt="Beef Stew" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Beef Stew</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -2692,7 +2566,7 @@
 
     <div class="card" id="beef-stroganoff">
       <div class="card-img"><img src="cookbook_images/beef-stroganoff.jpg" alt="Beef Stroganoff" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Beef Stroganoff</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -2710,7 +2584,7 @@
 
     <div class="card" id="birria-tacos">
       <div class="card-img"><img src="cookbook_images/birria-tacos.jpg" alt="Birria Tacos" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Birria Tacos</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -2728,7 +2602,7 @@
 
     <div class="card" id="beef-short-ribs">
       <div class="card-img"><img src="cookbook_images/beef-short-ribs.jpg" alt="Braised Beef Short Ribs" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Braised Beef Short Ribs</h3>
         <p class="meta">Beef, Comfort Food, Italian · 0 servings</p>
@@ -2746,7 +2620,7 @@
 
     <div class="card" id="braised-brisket-noodle-kugel">
       <div class="card-img"><img src="cookbook_images/braised-brisket-noodle-kugel.jpg" alt="Braised Brisket &amp; Noodle Kugel" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Braised Brisket &amp; Noodle Kugel</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -2764,7 +2638,7 @@
 
     <div class="card" id="carne-asada">
       <div class="card-img"><img src="cookbook_images/carne-asada.jpg" alt="Carne Asada Tacos" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Carne Asada Tacos</h3>
         <p class="meta">BBQ + Grilling, Beef, Main Dishes · 0 servings</p>
@@ -2782,7 +2656,7 @@
 
     <div class="card" id="chicago-deep-dish-2">
       <div class="card-img"><img src="cookbook_images/chicago-deep-dish-2.jpg" alt="Chicago Deep Dish Pizza (New &amp; Improved Recipe)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Chicago Deep Dish Pizza (New &amp; Improved Recipe)</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 1 servings</p>
@@ -2800,7 +2674,7 @@
 
     <div class="card" id="chili-crisp-noodles">
       <div class="card-img"><img src="cookbook_images/chili-crisp-noodles.jpg" alt="Chili Crisp Peanut Noodles" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Chili Crisp Peanut Noodles</h3>
         <p class="meta">Asian, Beef, Lighter Meals · 0 servings</p>
@@ -2818,7 +2692,7 @@
 
     <div class="card" id="chopped-cheese-sandwich">
       <div class="card-img"><img src="cookbook_images/chopped-cheese-sandwich.jpg" alt="Chopped Cheese Sandwich" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Chopped Cheese Sandwich</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -2836,7 +2710,7 @@
 
     <div class="card" id="chicago-italian-beef">
       <div class="card-img"><img src="cookbook_images/chicago-italian-beef.jpg" alt="Classic Chicago Italian Beef" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Classic Chicago Italian Beef</h3>
         <p class="meta">Beef, Breads, Italian · 0 servings</p>
@@ -2854,7 +2728,7 @@
 
     <div class="card" id="southern-style-mac-cheese">
       <div class="card-img"><img src="cookbook_images/southern-style-mac-cheese.jpg" alt="Classic Southern Style Baked Mac &amp; Cheese" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Classic Southern Style Baked Mac &amp; Cheese</h3>
         <p class="meta">Appetizers, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -2872,7 +2746,7 @@
 
     <div class="card" id="corned-beef">
       <div class="card-img"><img src="cookbook_images/corned-beef.jpg" alt="Corned Beef and Cabbage" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Corned Beef and Cabbage</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -2890,7 +2764,7 @@
 
     <div class="card" id="ground-beef-stroganoff">
       <div class="card-img"><img src="cookbook_images/ground-beef-stroganoff.jpg" alt="Creamy Ground Beef Stroganoff" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Creamy Ground Beef Stroganoff</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -2908,7 +2782,7 @@
 
     <div class="card" id="crockpot-italian-beef">
       <div class="card-img"><img src="cookbook_images/crockpot-italian-beef.jpg" alt="Crockpot Italian Beef" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Crockpot Italian Beef</h3>
         <p class="meta">Beef, Comfort Food, Italian · 0 servings</p>
@@ -2926,7 +2800,7 @@
 
     <div class="card" id="crunchy-tacos">
       <div class="card-img"><img src="cookbook_images/crunchy-tacos.jpg" alt="Crunchy Tacos" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Crunchy Tacos</h3>
         <p class="meta">Beef, Comfort Food, Lighter Meals · 0 servings</p>
@@ -2944,7 +2818,7 @@
 
     <div class="card" id="detroit-pizza">
       <div class="card-img"><img src="cookbook_images/detroit-pizza.jpg" alt="Detroit Style Pan Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Detroit Style Pan Pizza</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 2 servings</p>
@@ -2962,7 +2836,7 @@
 
     <div class="card" id="faster-better-spaghetti-and-meat-sauce">
       <div class="card-img"><img src="cookbook_images/faster-better-spaghetti-and-meat-sauce.jpg" alt="Faster, Better, Spaghetti &amp; Meat Sauce" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Faster, Better, Spaghetti &amp; Meat Sauce</h3>
         <p class="meta">Beef, Comfort Food, Italian · 0 servings</p>
@@ -2980,7 +2854,7 @@
 
     <div class="card" id="grilled-kebabs">
       <div class="card-img"><img src="cookbook_images/grilled-kebabs.jpg" alt="Grilled Kebabs" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Grilled Kebabs</h3>
         <p class="meta">BBQ + Grilling, Beef, Chicken · 0 servings</p>
@@ -2998,7 +2872,7 @@
 
     <div class="card" id="ground-beef-gyro">
       <div class="card-img"><img src="cookbook_images/ground-beef-gyro.jpg" alt="Ground Beef Gyro" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Ground Beef Gyro</h3>
         <p class="meta">Beef, Lighter Meals, Main Dishes · 0 servings</p>
@@ -3014,27 +2888,9 @@
       </div>
     </div>
 
-    <div class="card" id="healthy-meal-prep">
-      <div class="card-img"><img src="cookbook_images/healthy-meal-prep.jpg" alt="Healthy Meal Prep That Actually Tastes Good" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge time">Time n/a</span></div>
-        <h3>Healthy Meal Prep That Actually Tastes Good</h3>
-        <p class="meta">Asian, Beef, Chicken · 0 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>375 g 2c medium-grain sushi rice</li><li>500 g 2¼c water</li><li>6-8 g 1½ t salt (for rice)</li><li>15 g ~1T cooking oil</li><li>2 lbs/1kg ground beef 90/10</li><li>400 g ~1 lb broccolini, chopped into 1″ pieces</li><li>200 g 2 large bell peppers, sliced into ¼”x1″ pieces</li><li>10 g 4 cloves garlic, crushed</li><li>20 g ~2″ fresh ginger, grated</li><li>75 g 5T soy sauce</li><li>15 g 1T sesame oil</li><li>50 g 3T + 1t beef stock or water</li><li class="more">+36 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>In a rice cooker, combine rice, water, &amp; salt. Cook until done.</li><li>Heat wok over high (or med-high if using nonstick). Add oil &amp; ground beef. Cook, breaking apart until browned, about 10 min.</li><li>Prep vegetables: Chop broccolini into 1-inch pieces. Slice bell peppers into ¼-inch thick strips, then cut those strips into 1-inch lengths. Crush garlic and grate ginger; set aside.</li><li>Once beef is browned, add garlic &amp; ginger, stir-frying, 60 sec. Add soy, sesame oil, beef stock/water, vinegar, sugar, &amp; gochujang. Stir until sauce reduces</li><li>Wipe out wok, add oil, sauté veg over high, 5 min until tender but snappy.</li><li>1 Bring a large pot of salted water to boil. Cook pasta until slightly past al dente. Drain, mix immediately with pesto and parmesan.</li><li>2 Marinate shrimp with paprika, garlic powder, salt, and olive oil.</li><li>Chop kale thinly; cut green beans into 1” pieces.</li><li class="more">+7 more steps</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/healthy-meal-prep/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card" id="sunday-roast">
       <div class="card-img"><img src="cookbook_images/sunday-roast.jpg" alt="Homemade Roast Beef" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Homemade Roast Beef</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -3052,7 +2908,7 @@
 
     <div class="card" id="hungarian-goulash">
       <div class="card-img"><img src="cookbook_images/hungarian-goulash.jpg" alt="Hungarian Goulash" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Hungarian Goulash</h3>
         <p class="meta">Beef, Comfort Food, Soups &amp;amp; Stews · 0 servings</p>
@@ -3068,27 +2924,9 @@
       </div>
     </div>
 
-    <div class="card" id="lobster-bisque">
-      <div class="card-img"><img src="cookbook_images/lobster-bisque.jpg" alt="Lobster Bisque" loading="lazy"></div>
-      <div class="card-body">
-        <div class="badges"><span class="badge time">Time n/a</span></div>
-        <h3>Lobster Bisque</h3>
-        <p class="meta">Comfort Food, Seafood, Soups &amp;amp; Stews · 0 servings</p>
-        <details>
-          <summary>Ingredients</summary>
-          <ul class="ingredients"><li>4 lobster tails 4oz, substitute 12 easy peel shell on shrimp</li><li>1000 g/mL clam juice 4c</li><li>250 g dry white wine 1c</li><li>1000 g chicken stock 4c, boxed or homemade</li><li>20 g chicken or lobster better than bouillon 1 1/2T</li><li>6-7 garlic cloves pressed, 25-30g</li><li>1 large white onion rough chopped, about 300g</li><li>6 stalks celery rough chopped, about 200g</li><li>3 medium carrots rough chopped, about 200g</li><li>Olive oil</li><li>2 sticks unsalted butter 230g</li><li>Salt to taste</li><li class="more">+9 more</li></ul>
-        </details>
-        <details>
-          <summary>Instructions</summary>
-          <ol class="steps"><li>Start by preparing the lobster tails. Boil clam juice, white wine, chicken stock, and bouillon in a saucepan.</li><li>Bring the liquid to a hard boil for 5 minutes, then turn off the burner and add in the lobster tails. The liquid temp at this point should be around 175-180F/80C. Set a timer for 6 minutes. If using shrimp, boil for only 4 minutes.</li><li>After boiling, check the internal temperature of the lobster tails (130-135°F/55C) using an instant-read thermometer. Transfer the tails to the fridge to cool for 5 minutes.</li><li>Use food scissors to cut the tails open on both sides.Peel off the outer shell and refrigerate the meat while preparing the bisque .</li><li>Chop the lobster shells into chunky pieces. Also, rough chop onion, celery, carrots, and press garlic.</li><li>In a large soup pot over medium heat, add a long squeeze of olive oil, butter, and the chopped lobster shells. Fry the shells for 5-6 minutes to infuse the fat with lobster flavor.</li><li>Strain the shells out of the lobster-infused butter, discard the shells, and return the pot and strained butter to the medium heat. Add chopped veggies and a large pinch of salt. Sweat the veggies for 5-6 minutes, avoiding browning.</li><li>Add a pinch of chili flakes, paprika, and 75 grams of all-purpose flour. Stir and cook to create a roux.</li><li class="more">+5 more steps</li></ol>
-        </details>
-        <a class="link" href="https://brianlagerstrom.com/recipes/lobster-bisque/" target="_blank">Full recipe →</a>
-      </div>
-    </div>
-
     <div class="card" id="meatball-sub">
       <div class="card-img"><img src="cookbook_images/meatball-sub.jpg" alt="Meatball Sub" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Meatball Sub</h3>
         <p class="meta">Beef, Breads, Main Dishes · 0 servings</p>
@@ -3106,7 +2944,7 @@
 
     <div class="card" id="meatloaf">
       <div class="card-img"><img src="cookbook_images/meatloaf.jpg" alt="Meatloaf" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Meatloaf</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -3124,7 +2962,7 @@
 
     <div class="card" id="miso-glazed-salmon-with-corn-amp-asparagus-succotash">
       <div class="card-img"><img src="cookbook_images/miso-glazed-salmon-with-corn-amp-asparagus-succotash.jpg" alt="Miso Glazed Salmon with Corn &amp; Asparagus Succotash" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Miso Glazed Salmon with Corn &amp; Asparagus Succotash</h3>
         <p class="meta">Asian, Lighter Meals, Main Dishes · 0 servings</p>
@@ -3142,7 +2980,7 @@
 
     <div class="card" id="mongolian-beef">
       <div class="card-img"><img src="cookbook_images/mongolian-beef.jpg" alt="Mongolian Beef" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Mongolian Beef</h3>
         <p class="meta">Asian, Beef · 0 servings</p>
@@ -3160,7 +2998,7 @@
 
     <div class="card" id="moroccan-stew">
       <div class="card-img"><img src="cookbook_images/moroccan-stew.jpg" alt="Moroccan Ground Beef Stew" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Moroccan Ground Beef Stew</h3>
         <p class="meta">Beef, Lighter Meals, Soups &amp;amp; Stews · 0 servings</p>
@@ -3178,7 +3016,7 @@
 
     <div class="card" id="oklahoma-onion-burger">
       <div class="card-img"><img src="cookbook_images/oklahoma-onion-burger.jpg" alt="Oklahoma Onion Burger" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Oklahoma Onion Burger</h3>
         <p class="meta">Beef, Main Dishes, Sandwiches · 0 servings</p>
@@ -3196,7 +3034,7 @@
 
     <div class="card" id="one-pot-carbonara">
       <div class="card-img"><img src="cookbook_images/one-pot-carbonara.jpg" alt="One Pot Carbonara" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>One Pot Carbonara</h3>
         <p class="meta">Comfort Food, Italian, Main Dishes · 0 servings</p>
@@ -3214,7 +3052,7 @@
 
     <div class="card" id="osso-buco">
       <div class="card-img"><img src="cookbook_images/osso-buco.jpg" alt="Osso Buco" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Osso Buco</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -3232,7 +3070,7 @@
 
     <div class="card" id="pbj-from-scratch">
       <div class="card-img"><img src="cookbook_images/pbj-from-scratch.jpg" alt="PBJ From Scratch" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>PBJ From Scratch</h3>
         <p class="meta">Breads, Main Dishes, Sandwiches · 0 servings</p>
@@ -3250,7 +3088,7 @@
 
     <div class="card" id="pizza-bagels">
       <div class="card-img"><img src="cookbook_images/pizza-bagels.jpg" alt="Pizza Bagels" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Pizza Bagels</h3>
         <p class="meta">Appetizers, Breads, Comfort Food · 0 servings</p>
@@ -3268,7 +3106,7 @@
 
     <div class="card" id="pot-roast">
       <div class="card-img"><img src="cookbook_images/pot-roast.jpg" alt="Pot Roast" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Pot Roast</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -3286,7 +3124,7 @@
 
     <div class="card" id="prime-rib">
       <div class="card-img"><img src="cookbook_images/prime-rib.jpg" alt="Prime Rib" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Prime Rib</h3>
         <p class="meta">Beef, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -3304,7 +3142,7 @@
 
     <div class="card" id="quick-kbbq">
       <div class="card-img"><img src="cookbook_images/quick-kbbq.jpg" alt="Quick Korean BBQ" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Quick Korean BBQ</h3>
         <p class="meta">Asian, BBQ + Grilling, Beef · 0 servings</p>
@@ -3322,7 +3160,7 @@
 
     <div class="card" id="roast-beef-n-cheddar">
       <div class="card-img"><img src="cookbook_images/roast-beef-n-cheddar.jpg" alt="Roast Beef N Cheddar" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Roast Beef N Cheddar</h3>
         <p class="meta">Beef, Breads, Main Dishes · 0 servings</p>
@@ -3340,7 +3178,7 @@
 
     <div class="card" id="rueben-with-marble-rye">
       <div class="card-img"><img src="cookbook_images/rueben-with-marble-rye.jpg" alt="Rueben with Marble Rye" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Rueben with Marble Rye</h3>
         <p class="meta">Beef, Breads, Main Dishes · 0 servings</p>
@@ -3358,7 +3196,7 @@
 
     <div class="card" id="schnitzel-and-spaetzle">
       <div class="card-img"><img src="cookbook_images/schnitzel-and-spaetzle.jpg" alt="Schnitzel and Spaetzle Feast" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Schnitzel and Spaetzle Feast</h3>
         <p class="meta">Comfort Food, Main Dishes, Pork · 0 servings</p>
@@ -3376,7 +3214,7 @@
 
     <div class="card" id="sheet-pan-chicken-and-vegetables">
       <div class="card-img"><img src="cookbook_images/sheet-pan-chicken-and-vegetables.jpg" alt="Sheet Pan Chicken and Vegetables" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Sheet Pan Chicken and Vegetables</h3>
         <p class="meta">Chicken, Lighter Meals, Main Dishes · 0 servings</p>
@@ -3394,7 +3232,7 @@
 
     <div class="card" id="sheet-pan-sweet-potato-alloo-gobi">
       <div class="card-img"><img src="cookbook_images/sheet-pan-sweet-potato-alloo-gobi.jpg" alt="Sheet Pan Sweet Potato Aloo Gobi" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Sheet Pan Sweet Potato Aloo Gobi</h3>
         <p class="meta">Asian, Lighter Meals, Main Dishes · 0 servings</p>
@@ -3412,7 +3250,7 @@
 
     <div class="card" id="shepherds-pie">
       <div class="card-img"><img src="cookbook_images/shepherds-pie.jpg" alt="Shepherd’s Pie" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Shepherd’s Pie</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -3430,7 +3268,7 @@
 
     <div class="card" id="shredded-beef-enchiladas">
       <div class="card-img"><img src="cookbook_images/shredded-beef-enchiladas.jpg" alt="Shredded Beef Enchiladas" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Shredded Beef Enchiladas</h3>
         <p class="meta">Beef, Main Dishes, Mexican · 0 servings</p>
@@ -3448,7 +3286,7 @@
 
     <div class="card" id="grown-up-sloppy-joes">
       <div class="card-img"><img src="cookbook_images/grown-up-sloppy-joes.jpg" alt="Sloppy Joseph" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Sloppy Joseph</h3>
         <p class="meta">Beef, Main Dishes, Sandwiches · 0 servings</p>
@@ -3466,7 +3304,7 @@
 
     <div class="card" id="smash-burgers">
       <div class="card-img"><img src="cookbook_images/smash-burgers.jpg" alt="Smash Burgers" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Smash Burgers</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -3484,7 +3322,7 @@
 
     <div class="card" id="smoked-beef-easier-than-brisket">
       <div class="card-img"><img src="cookbook_images/smoked-beef-easier-than-brisket.jpg" alt="Smoked Beef (Easier Than Brisket)" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Smoked Beef (Easier Than Brisket)</h3>
         <p class="meta">Beef, Main Dishes, Sandwiches · 0 servings</p>
@@ -3502,7 +3340,7 @@
 
     <div class="card" id="spaghetti-and-meatballs">
       <div class="card-img"><img src="cookbook_images/spaghetti-and-meatballs.jpg" alt="Spaghetti and Meatballs" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Spaghetti and Meatballs</h3>
         <p class="meta">Beef, Comfort Food, Italian · 0 servings</p>
@@ -3520,7 +3358,7 @@
 
     <div class="card" id="stuffed-crust-pizza">
       <div class="card-img"><img src="cookbook_images/stuffed-crust-pizza.jpg" alt="Stuffed Crust Pizza" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Stuffed Crust Pizza</h3>
         <p class="meta">Italian, Main Dishes, Pizza · 0 servings</p>
@@ -3538,7 +3376,7 @@
 
     <div class="card" id="swedish-meatballs">
       <div class="card-img"><img src="cookbook_images/swedish-meatballs.jpg" alt="Swedish Meatballs with Cranberry Jelly, Mashed Potatoes and Gravy" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Swedish Meatballs with Cranberry Jelly, Mashed Potatoes and Gravy</h3>
         <p class="meta">Beef, Comfort Food, Main Dishes · 0 servings</p>
@@ -3556,7 +3394,7 @@
 
     <div class="card" id="tandoori-chicken">
       <div class="card-img"><img src="cookbook_images/tandoori-chicken.jpg" alt="Tandoori Chicken with Garlic Naan" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Tandoori Chicken with Garlic Naan</h3>
         <p class="meta">Asian, Chicken · 0 servings</p>
@@ -3574,7 +3412,7 @@
 
     <div class="card" id="roast-turkey">
       <div class="card-img"><img src="cookbook_images/roast-turkey.jpg" alt="The Greatest Roast Turkey Recipe Of All Time" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>The Greatest Roast Turkey Recipe Of All Time</h3>
         <p class="meta">Comfort Food, Holiday Dishes · 12 servings</p>
@@ -3592,7 +3430,7 @@
 
     <div class="card" id="turkey-club">
       <div class="card-img"><img src="cookbook_images/turkey-club.jpg" alt="Turkey Club Sandwich" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Turkey Club Sandwich</h3>
         <p class="meta">Breads, Lighter Meals, Main Dishes · 10 servings</p>
@@ -3610,7 +3448,7 @@
 
     <div class="card" id="weeknight-steak-fajitas">
       <div class="card-img"><img src="cookbook_images/weeknight-steak-fajitas.jpg" alt="Weeknight Steak Fajitas" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>Weeknight Steak Fajitas</h3>
         <p class="meta">Beef, Lighter Meals, Mexican · 0 servings</p>
@@ -3628,7 +3466,7 @@
 
     <div class="card" id="fancy-baked-mac-cheese">
       <div class="card-img"><img src="cookbook_images/fancy-baked-mac-cheese.jpg" alt="“Fancy” Baked Mac &amp; Cheese" loading="lazy"></div>
-      <div class="card-body">
+      <div class="card-body"><div class="card-controls"><button class="star-btn" title="Favorite">☆</button><button class="del-btn" title="Delete">✕</button></div>
         <div class="badges"><span class="badge time">Time n/a</span></div>
         <h3>“Fancy” Baked Mac &amp; Cheese</h3>
         <p class="meta">Appetizers, Comfort Food, Holiday Dishes · 0 servings</p>
@@ -3643,6 +3481,7 @@
         <a class="link" href="https://brianlagerstrom.com/recipes/fancy-baked-mac-cheese/" target="_blank">Full recipe →</a>
       </div>
     </div>
+</div>
 
 
 <script>
@@ -3710,8 +3549,20 @@
     }
     if (del) {
       const id = del.closest('.card').id;
-      if (confirm('Delete this recipe from your cookbook?')) {
+      if (confirm('Delete this recipe from your cookbook? This removes it from all your records.')) {
         deleted.add(id); save(); apply();
+        // Sync deletion to all records via GitHub Actions
+        fetch('https://api.github.com/repos/pcmccullagh/lagerstrom-cookbook/dispatches', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer REPO_PAT'
+          },
+          body: JSON.stringify({
+            event_type: 'recipe-deleted',
+            client_payload: { slug: id }
+          })
+        }).catch(e => console.error('Delete sync failed:', e));
       }
     }
   });
